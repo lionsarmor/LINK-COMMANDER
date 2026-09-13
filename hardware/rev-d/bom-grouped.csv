@@ -22,3 +22,26 @@ Quantity,Part / value,Through-hole footprint,References
 4,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R14 R18 R22 R26
 1,CD4050BE,DIP-16_W7.62mm_Socket,U2
 4,M3,MountingHole_3.2mm_M3,H1 H2 H3 H4
+1,5V_BOARD,TestPoint_THT_1mm,TP1
+1,5V_MODULE,TestPoint_THT_1mm,TP2
+1,3V3,TestPoint_THT_1mm,TP3
+1,USB1_5V,TestPoint_THT_1mm,TP4
+1,USB2_5V,TestPoint_THT_1mm,TP5
+1,KBD_5V,TestPoint_THT_1mm,TP6
+1,MOUSE_5V,TestPoint_THT_1mm,TP7
+1,5V_INPUT,TestPoint_THT_1mm,TP8
+1,KBD_DATA,TestPoint_THT_1mm,TP9
+1,KBD_CLOCK,TestPoint_THT_1mm,TP10
+1,MOUSE_DATA,TestPoint_THT_1mm,TP11
+1,MOUSE_CLOCK,TestPoint_THT_1mm,TP12
+1,GP8,TestPoint_THT_1mm,TP13
+1,GP10,TestPoint_THT_1mm,TP14
+1,GP12,TestPoint_THT_1mm,TP15
+1,GP14,TestPoint_THT_1mm,TP16
+1,GP9,TestPoint_THT_1mm,TP17
+1,GP11,TestPoint_THT_1mm,TP18
+1,GP13,TestPoint_THT_1mm,TP19
+1,GP15,TestPoint_THT_1mm,TP20
+1,USB1_FAULT,TestPoint_THT_1mm,TP21
+1,USB2_FAULT,TestPoint_THT_1mm,TP22
+4,GND,TestPoint_THT_1mm,TP23 TP24 TP25 TP26

@@ -26,8 +26,9 @@ low-only DATA/CLOCK drive. The RP2040 runs USB host and PS/2 device firmware.
 The supply-switch enables are grounded; receiver power is always on when
 external 5 V is present. There is no RUN_ENABLE signal.
 
-The 140 × 80 mm, two-layer PCB has 54 component positions, including four
-mounting holes. Both DIN target +5 V reference nets remain separate from
+The 140 × 80 mm, two-layer PCB has 80 CAD positions: 50 electrical parts, four
+mounting holes and 26 bare test contacts. USB data uses existing resistor
+pads for probing; power and PS/2 signals have dedicated test holes. Both DIN target +5 V reference nets remain separate from
 board power. JP1 is a manual programming-power interlock.
 
 ## Delivery and limits

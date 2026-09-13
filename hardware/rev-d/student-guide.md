@@ -66,7 +66,8 @@ This does not eliminate the need to measure actual PS/2 signal edges.
 ## Reading the schematic
 
 Read the sheet in order: power, module, logic power, USB keyboard, USB mouse,
-PS/2 keyboard, PS/2 mouse. Green wires show connections. A dot means wires
+PS/2 keyboard, PS/2 mouse, then test access. Section 8 shows TP1–TP26;
+use [the test-point map](test-points.md) to choose what to measure. Green wires show connections. A dot means wires
 join. A crossing without a dot does not join. Equal net names connect even
 when a long wire is omitted between sections.
 
@@ -79,6 +80,7 @@ The complete [pin table](breadboard-wiring.csv) shows both names.
 - Q = transistor; here it is a switch to ground.
 - U = integrated circuit; its physical pin numbers are shown.
 - J = connector; JP1 is a removable jumper; F1 is the input fuse.
+- TP = a plated probe hole, optionally fitted with a short through-hole pin.
 - An X on a pin means leave it unconnected, not connect it to ground.
 
 The master PDF is one large vector sheet. Zoom in on one section at a time;

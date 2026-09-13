@@ -4,6 +4,9 @@ No working bridge firmware is included yet. This file specifies what the
 next implementation must do; it is not a claim that two-port USB or PS/2
 behavior has been tested.
 
+Test access is documented in [test-points.md](test-points.md); the new
+probe contacts do not change the firmware pin assignments or polarity.
+
 ## Hardware interface
 
 | GPIO | Function |

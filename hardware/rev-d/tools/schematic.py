@@ -52,7 +52,9 @@ def rect(x0,y0,x1,y1):return f'(rectangle (start {x0} {-y0}) (end {x1} {-y1}) {s
 def circle(x,y,r):return f'(circle (center {x} {-y}) (radius {r}) {stroke()} (fill (type none)))'
 def place(ref,x,y,kind='box',left=None,right=None,unit=1,rot=0,pitch=4,width=30,pins=None,caption=None):
  p=BY[ref];shape='';loc={}
- if kind in ('R','C','D','F','JP'):
+ if kind=='TP':
+  loc={'1':(-5,0,0)};shape=circle(0,0,1)+poly([(-5,0),(-1,0)]);h=4
+ elif kind in ('R','C','D','F','JP'):
   loc={'1':(-7.5,0,0),'2':(7.5,0,180)}
   if kind in ['R','F','JP']:shape=rect(-3,-1.3,3,1.3)+poly([(-7.5,0),(-3,0)])+poly([(3,0),(7.5,0)])
   elif kind=='C':shape=poly([(-.7,-3),(-.7,3)])+poly([(.7,-3),(.7,3)])+poly([(-7.5,0),(-.7,0)])+poly([(.7,0),(7.5,0)])
@@ -161,9 +163,14 @@ for k,prefix in enumerate(['KBD','MOUSE']):
   if ch==0:W(key(qref,3),key(j,3),(x+65,y-7.5),(x+115,y-7.5),(x+115,y-18),(x+211,y-18),(x+211,358))
   else:W(key(qref,3),key(j,4),(x+65,y-7.5),(x+115,y-7.5),(x+115,406),(x+221,406),(x+221,364))
   text(['DATA','CLOCK'][ch],x+184,y-15,1.8)
-text('HOW TO READ: dots join wires; crossing wires without dots do not join. Equal net names are connected.',15,424,1.8)
-text('Q = transistor. R = resistor. C = capacitor. U = chip. M1 pin numbers are carrier numbers; use GP labels on the module.',15,433,1.6)
-text('Prototype: firmware and bench tests are required before use with the X16. Cable wiring is in breadboard.md.',15,441,1.6)
+section('8 / TEST ACCESS',10,420,580,87,'TP holes are optional probe contacts, not extra required parts. All GND test points are connected.')
+for i in range(26):
+ ref=f'TP{i+1}';x=42+(i%9)*64;y=446+(i//9)*19
+ place(ref,x,y,'TP');L(ref,1,-8)
+text('USB data: probe existing R3.1 / R4.1 (keyboard D+ / D-) or R8.1 / R9.1 (mouse D+ / D-). No added USB stubs.',20,501,1.5)
+text('HOW TO READ: dots join wires; crossing wires without dots do not join. Equal net names are connected.',15,517,1.8)
+text('Q = transistor. R = resistor. C = capacitor. U = chip. TP = test point. M1 numbers are carrier pins; use module GP labels.',15,526,1.6)
+text('Prototype: firmware and bench tests are required before use with the X16. See test-points.md and breadboard.md.',15,534,1.6)
 # Label remaining boundary connections. Long internal signal paths are wires above.
 for ref in sorted(placed):
  for pin,(_,net) in BY[ref]['pins'].items():
@@ -206,7 +213,7 @@ lib=''
 for ref,units in defs.items():
  hide=' hide' if not (ref.startswith('U') or ref=='M1' or ref.startswith('J')) else ''
  lib+=f'(symbol "LC_{ref}" (pin_names (offset 0.8){hide}) (in_bom yes) (on_board yes) (property "Reference" "{ref}" (at 0 0 0) {fx()}) (property "Value" {q(BY[ref]["value"])} (at 0 0 0) {fx()}) '+''.join(units)+')\n'
-s=f'(kicad_sch (version 20230121) (generator eeschema) (uuid {uid("root")}) (paper "User" 620 455) (title_block (title "LINK COMMANDER — Rev D keyboard and mouse") (date "2026-09-13") (rev "D / PROTOTYPE") (company "RODDY")) (lib_symbols {lib}) '+''.join(items)+' (sheet_instances (path "/" (page "1"))))\n'
+s=f'(kicad_sch (version 20230121) (generator eeschema) (uuid {uid("root")}) (paper "User" 620 550) (title_block (title "LINK COMMANDER — Rev D keyboard and mouse") (date "2026-09-13") (rev "D / PROTOTYPE") (company "RODDY")) (lib_symbols {lib}) '+''.join(items)+' (sheet_instances (path "/" (page "1"))))\n'
 s=re.sub(r'\(property "(Reference|Value|Footprint)" ("(?:\\.|[^"\\])*")',lambda m:m[0]+f' (id {dict(Reference=0,Value=1,Footprint=2)[m[1]]})',s).replace(' -90)', ' 270)')
 (CAD/'link-commander.kicad_sch').write_text(s)
 print(f'One page: {len(placed)} components; {len(nodes)} physical pins; {len(wireids)} wire/section segments.')

@@ -53,3 +53,29 @@ H1,M3,MountingHole_3.2mm_M3,Mechanical,
 H2,M3,MountingHole_3.2mm_M3,Mechanical,
 H3,M3,MountingHole_3.2mm_M3,Mechanical,
 H4,M3,MountingHole_3.2mm_M3,Mechanical,
+TP1,5V_BOARD,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP2,5V_MODULE,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP3,3V3,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP4,USB1_5V,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP5,USB2_5V,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP6,KBD_5V,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP7,MOUSE_5V,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP8,5V_INPUT,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP9,KBD_DATA,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP10,KBD_CLOCK,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP11,MOUSE_DATA,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP12,MOUSE_CLOCK,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP13,GP8,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP14,GP10,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP15,GP12,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP16,GP14,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP17,GP9,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP18,GP11,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP19,GP13,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP20,GP15,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP21,USB1_FAULT,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP22,USB2_FAULT,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP23,GND,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP24,GND,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP25,GND,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.
+TP26,GND,TestPoint_THT_1mm,Test access,Bare plated test hole; optional short single through-hole pin. Not an extra required component.

@@ -13,6 +13,7 @@ The X16 PS/2 +5 V lines supply only their signal pull-ups.
 
 ![Rev D PCB preview](hardware/rev-d/review/pcb-top.png)
 
+- [Test points and expected readings](hardware/rev-d/test-points.md)
 - [Student guide: how it works](hardware/rev-d/student-guide.md)
 - [One-page schematic PDF](hardware/rev-d/review/schematic.pdf)
 - [Assembly PDF](hardware/rev-d/review/assembly.pdf)
@@ -24,9 +25,10 @@ The X16 PS/2 +5 V lines supply only their signal pull-ups.
 - [Design details and validation status](hardware/rev-d/README.md)
 - [Firmware requirements](hardware/rev-d/firmware-contract.md)
 
-The rounded **140 × 80 mm, two-layer PCB** has 54 component positions
-including mounting holes, compared with 143 in Rev C. The student schematic
-shows seven functional sections, physical pin numbers and connected wires.
+The rounded **140 × 80 mm, two-layer PCB** retains 50 electrical parts
+and four mounting holes, and now adds **26 labeled through-hole test pads**.
+The student schematic shows seven circuit sections plus a test-point section,
+physical pin numbers and connected wires.
 
 **Engineering prototype:** CAD checks pass, but firmware, physical fit,
 receiver compatibility and electrical operation still require testing.

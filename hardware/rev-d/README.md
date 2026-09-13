@@ -16,6 +16,7 @@ the RP2040 or USB ports. All grounds are shared.
 
 ## Start here
 
+- [Test-point map and expected readings](test-points.md) and [probe CSV](test-points.csv)
 - [Student design guide: how the circuit works](student-guide.md)
 - [One-page schematic PDF](review/schematic.pdf)
 - [Assembly PDF](review/assembly.pdf) and [PCB preview](review/pcb-top.png)
@@ -35,7 +36,8 @@ the RP2040 or USB ports. All grounds are shared.
 | DIN outputs | 4 | 2: PS/2 keyboard and mouse |
 | Socketed DIP ICs | 17 | 2 |
 | Transistors | 7 | 4 |
-| Component positions, including mounting holes | 143 | 54 |
+| Circuit parts plus mounting holes | 143 | 54 |
+| Additional bare test holes | — | 26 |
 | Board | 230 × 130 mm, four layers | 140 × 80 mm, two layers |
 
 The gamepad shift registers, resistor networks and control gates are gone.
@@ -51,6 +53,14 @@ must not be reused without updating them. PS/2 drive HIGH still pulls LOW.
 
 The DIN-to-PS/2 cable signal assignment is unchanged, but the output
 connectors are now J4 and J5. Use the Rev D wiring tables exclusively.
+
+## Test access
+
+TP1–TP26 add 26 bare plated holes: eight power rails, twelve PS/2
+drive/cable/sense nodes, two USB fault outputs and four grounds. The board
+now has 80 CAD positions: 50 electrical parts, four mounting holes and
+26 optional test contacts. It still needs only two socketed chips.
+USB data probing uses existing resistor pads to avoid added test branches.
 
 ## Prototype status
 

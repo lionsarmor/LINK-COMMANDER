@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/legion/Desktop/LINK COMMANDER/hardware/rev-d/kicad/link-commander.kicad_sch</source>
-    <date>Sun Sep 13 11:32:54 2026</date>
+    <date>Sun Sep 13 12:10:56 2026</date>
     <tool>Eeschema 7.0.11+dfsg-1build4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -456,6 +456,240 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7cb0ed71-b4ba-55e2-b228-ff9f5a5b5eab</tstamps>
     </comp>
+    <comp ref="TP1">
+      <value>5V_BOARD</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b90f708-9502-5432-960a-84cbc1dd2f2d</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>5V_MODULE</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d3598b-a6fa-5783-9235-534cb0f7e3c4</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>3V3</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36bfa8fe-8086-5005-9c0a-880fcf2808a7</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>USB1_5V</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3379ac-ad5d-517e-ab9b-12dd6e1396f8</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>USB2_5V</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>697f800c-06e4-57bc-b490-ece0d7d24e94</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>KBD_5V</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd1d0e69-abb2-5fae-8eb5-caa8485d00dd</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>MOUSE_5V</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9533e882-5eb2-5eb0-a53b-c7e1fcb0d9ee</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>5V_INPUT</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d972ed5d-2d7a-5ed7-a200-133d3de886e6</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>KBD_DATA</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP9" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>838e503a-504a-5ed8-a758-773008608e0e</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>KBD_CLOCK</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f189480-877c-5b15-a872-dda4b9adda44</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>MOUSE_DATA</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3df469e9-66f0-5174-a5c4-fcc1e9e36824</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>MOUSE_CLOCK</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>914d1b48-b567-5fcc-a79c-6a6a8eb870e0</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>GP8</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31a9c45b-7859-5ba4-87c3-14b76ff19d98</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>GP10</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP14" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45979f76-b29c-5415-ad6b-c970af9a3fd2</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>GP12</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c41c55fe-c6a6-541d-831b-7a3b38f84be2</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>GP14</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP16" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>563d176e-ada6-51d8-9d5b-61df41027651</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>GP9</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP17" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0422655-0898-5834-b027-6f9e4335c24f</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>GP11</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02e28729-45d8-5ab8-bef3-b7cb499f395a</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>GP13</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP19" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bd9190d-0190-5c04-bda0-6995833d14c6</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>GP15</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP20" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f61d5de5-1a5a-5707-9b85-d457a3d11a39</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>USB1_FAULT</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP21" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdd91a7f-5a29-5096-a3ec-283274f112f6</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>USB2_FAULT</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba96a247-a903-5cf7-ae31-7dc441a5bca4</tstamps>
+    </comp>
+    <comp ref="TP23">
+      <value>GND</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP23" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>592b2bf9-1919-5bdb-bd02-af6067007abb</tstamps>
+    </comp>
+    <comp ref="TP24">
+      <value>GND</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP24" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee80381a-3e84-5d0e-99fb-cfdefa7c514d</tstamps>
+    </comp>
+    <comp ref="TP25">
+      <value>GND</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP25" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b60dc21-ef77-5da7-96d2-ff66b7268623</tstamps>
+    </comp>
+    <comp ref="TP26">
+      <value>GND</value>
+      <footprint>LinkCommander:TestPoint_THT_1mm</footprint>
+      <libsource lib="" part="LC_TP26" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d8e05f5-efca-5786-b8b9-f5331bc9a671</tstamps>
+    </comp>
     <comp ref="U1">
       <value>TPS2042P</value>
       <footprint>LinkCommander:DIP-8_W7.62mm_Socket</footprint>
@@ -472,7 +706,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="link-commander.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c7a1545e-3ed3-5c2a-99ab-e5572b2c53f8 46ee3a11-1de2-53ca-89b8-54ec9abc7fbb aef99fc1-1bda-5613-a3a1-b4478bdbce0d 264235ab-f0e5-53e0-94ee-8f13f80aecb0 348256fd-faba-59de-99c8-dbb5fbcdd899 7005da6e-44f7-5cca-8812-0744e27cc5b4 0afde61b-94dc-5652-baec-b81a91c9fa09</tstamps>
+      <tstamps>aef99fc1-1bda-5613-a3a1-b4478bdbce0d 264235ab-f0e5-53e0-94ee-8f13f80aecb0 348256fd-faba-59de-99c8-dbb5fbcdd899 7005da6e-44f7-5cca-8812-0744e27cc5b4 46ee3a11-1de2-53ca-89b8-54ec9abc7fbb c7a1545e-3ed3-5c2a-99ab-e5572b2c53f8 0afde61b-94dc-5652-baec-b81a91c9fa09</tstamps>
     </comp>
   </components>
   <libparts>
@@ -999,6 +1233,240 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="" part="LC_TP1">
+      <fields>
+        <field name="Reference">TP1</field>
+        <field name="Value">5V_BOARD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP10">
+      <fields>
+        <field name="Reference">TP10</field>
+        <field name="Value">KBD_CLOCK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP11">
+      <fields>
+        <field name="Reference">TP11</field>
+        <field name="Value">MOUSE_DATA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP12">
+      <fields>
+        <field name="Reference">TP12</field>
+        <field name="Value">MOUSE_CLOCK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP13">
+      <fields>
+        <field name="Reference">TP13</field>
+        <field name="Value">GP8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP14">
+      <fields>
+        <field name="Reference">TP14</field>
+        <field name="Value">GP10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP15">
+      <fields>
+        <field name="Reference">TP15</field>
+        <field name="Value">GP12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP16">
+      <fields>
+        <field name="Reference">TP16</field>
+        <field name="Value">GP14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP17">
+      <fields>
+        <field name="Reference">TP17</field>
+        <field name="Value">GP9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP18">
+      <fields>
+        <field name="Reference">TP18</field>
+        <field name="Value">GP11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP19">
+      <fields>
+        <field name="Reference">TP19</field>
+        <field name="Value">GP13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP2">
+      <fields>
+        <field name="Reference">TP2</field>
+        <field name="Value">5V_MODULE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP20">
+      <fields>
+        <field name="Reference">TP20</field>
+        <field name="Value">GP15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP21">
+      <fields>
+        <field name="Reference">TP21</field>
+        <field name="Value">USB1_FAULT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP22">
+      <fields>
+        <field name="Reference">TP22</field>
+        <field name="Value">USB2_FAULT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP23">
+      <fields>
+        <field name="Reference">TP23</field>
+        <field name="Value">GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP24">
+      <fields>
+        <field name="Reference">TP24</field>
+        <field name="Value">GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP25">
+      <fields>
+        <field name="Reference">TP25</field>
+        <field name="Value">GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP26">
+      <fields>
+        <field name="Reference">TP26</field>
+        <field name="Value">GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP3">
+      <fields>
+        <field name="Reference">TP3</field>
+        <field name="Value">3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP4">
+      <fields>
+        <field name="Reference">TP4</field>
+        <field name="Value">USB1_5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP5">
+      <fields>
+        <field name="Reference">TP5</field>
+        <field name="Value">USB2_5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP6">
+      <fields>
+        <field name="Reference">TP6</field>
+        <field name="Value">KBD_5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP7">
+      <fields>
+        <field name="Reference">TP7</field>
+        <field name="Value">MOUSE_5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP8">
+      <fields>
+        <field name="Reference">TP8</field>
+        <field name="Value">5V_INPUT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_TP9">
+      <fields>
+        <field name="Reference">TP9</field>
+        <field name="Value">KBD_DATA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEST" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="" part="LC_U1">
       <fields>
         <field name="Reference">U1</field>
@@ -1046,6 +1514,7 @@
       <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="M1" pin="21" pinfunction="3V3" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="VCC" pintype="passive"/>
     </net>
     <net code="2" name="/5V_BOARD">
@@ -1055,15 +1524,18 @@
       <node ref="JP1" pin="1" pinfunction="BOARD" pintype="passive"/>
       <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="IN" pintype="passive"/>
     </net>
     <net code="3" name="/5V_INPUT">
       <node ref="F1" pin="1" pinfunction="IN" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="+5V" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="4" name="/5V_MODULE">
       <node ref="JP1" pin="2" pinfunction="MODULE" pintype="passive"/>
       <node ref="M1" pin="23" pinfunction="5V" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="5" name="/GND">
       <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
@@ -1098,6 +1570,10 @@
       <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP23" pin="1" pinfunction="TEST" pintype="passive"/>
+      <node ref="TP24" pin="1" pinfunction="TEST" pintype="passive"/>
+      <node ref="TP25" pin="1" pinfunction="TEST" pintype="passive"/>
+      <node ref="TP26" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="/EN1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="/EN2" pintype="passive"/>
@@ -1124,45 +1600,55 @@
     <net code="10" name="/GP8">
       <node ref="M1" pin="9" pinfunction="GP8" pintype="passive"/>
       <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="11" name="/GP9">
       <node ref="M1" pin="10" pinfunction="GP9" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="Y0" pintype="passive"/>
     </net>
     <net code="12" name="/GP10">
       <node ref="M1" pin="11" pinfunction="GP10" pintype="passive"/>
       <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="13" name="/GP11">
       <node ref="M1" pin="12" pinfunction="GP11" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="Y1" pintype="passive"/>
     </net>
     <net code="14" name="/GP12">
       <node ref="M1" pin="13" pinfunction="GP12" pintype="passive"/>
       <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="15" name="/GP13">
       <node ref="M1" pin="14" pinfunction="GP13" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="Y2" pintype="passive"/>
     </net>
     <net code="16" name="/GP14">
       <node ref="M1" pin="15" pinfunction="GP14" pintype="passive"/>
       <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="17" name="/GP15">
       <node ref="M1" pin="16" pinfunction="GP15" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="Y3" pintype="passive"/>
     </net>
     <net code="18" name="/KBD_5V">
       <node ref="J4" pin="1" pinfunction="TARGET_5V" pintype="passive"/>
       <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="19" name="/KBD_CLOCK">
       <node ref="J4" pin="4" pinfunction="CLOCK" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="A1" pintype="passive"/>
     </net>
     <net code="20" name="/KBD_DATA">
@@ -1170,18 +1656,21 @@
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="A0" pintype="passive"/>
     </net>
     <net code="21" name="/MOUSE_5V">
       <node ref="J5" pin="1" pinfunction="TARGET_5V" pintype="passive"/>
       <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="TEST" pintype="passive"/>
     </net>
     <net code="22" name="/MOUSE_CLOCK">
       <node ref="J5" pin="4" pinfunction="CLOCK" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="A3" pintype="passive"/>
     </net>
     <net code="23" name="/MOUSE_DATA">
@@ -1189,6 +1678,7 @@
       <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="A2" pintype="passive"/>
     </net>
     <net code="24" name="/Q1_B">
@@ -1215,6 +1705,7 @@
       <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="OUT1" pintype="passive"/>
     </net>
     <net code="29" name="/USB1_DM">
@@ -1229,6 +1720,7 @@
     </net>
     <net code="31" name="/USB1_FAULT">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="/OC1" pintype="passive"/>
     </net>
     <net code="32" name="/USB1_LED_A">
@@ -1239,6 +1731,7 @@
       <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="OUT2" pintype="passive"/>
     </net>
     <net code="34" name="/USB2_DM">
@@ -1253,6 +1746,7 @@
     </net>
     <net code="36" name="/USB2_FAULT">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="TP22" pin="1" pinfunction="TEST" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="/OC2" pintype="passive"/>
     </net>
     <net code="37" name="/USB2_LED_A">

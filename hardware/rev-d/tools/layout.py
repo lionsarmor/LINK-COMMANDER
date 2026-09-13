@@ -35,6 +35,8 @@ for a in PARTS:
  if a['ref'].startswith('R') and not a['ref'].startswith('RN'):fp.Reference().SetPosition(v(a['x']+5.08,a['y']-2.15))
  if a['ref'].startswith('R') and not a['ref'].startswith('RN') and 1<=int(a['ref'][1:])<=26:fp.Reference().SetPosition(v(a['x']+5.08,a['y']))
  if a['ref'] in ['Q1','Q2','Q3','Q4']:fp.Reference().SetTextAngle(p.EDA_ANGLE(0,p.DEGREES_T));fp.Reference().SetPosition(v(a['x']+2.5,a['y']+4.5))
+ if a['ref'].startswith('TP'):fp.Reference().SetTextSize(v(.8,.8));fp.Reference().SetTextThickness(p.FromMM(.12))
+ if a['ref'] in ['TP13','TP14','TP17','TP18']:fp.Reference().SetPosition(v(a['x'],a['y']+1.7))
  if a['ref'].startswith('U'):fp.Reference().SetPosition(v(a['x']+3.81,a['y']+4));fp.Reference().SetTextSize(v(1,1))
  if a['ref']=='J1':fp.Reference().SetPosition(v(145,13))
  if a['ref'] in ['J2','J3']:fp.Reference().SetVisible(False)
@@ -51,8 +53,12 @@ for cx,cy,ang in [(146,14,-90),(146,86,0),(14,86,90),(14,14,180)]:
  e=p.PCB_SHAPE();e.SetShape(p.SHAPE_T_ARC);e.SetArcGeometry(*pts);e.SetLayer(p.Edge_Cuts);e.SetWidth(p.FromMM(.05));b.Add(e)
 def text(s,x,y,size=1):
  t=p.PCB_TEXT(b);t.SetText(s);t.SetPosition(v(x,y));t.SetLayer(p.F_SilkS);t.SetTextSize(v(size,size));t.SetTextThickness(p.FromMM(.15));b.Add(t)
+for a in PARTS:
+ if a['ref'].startswith('TP') and a['value']=='GND':text('GND',a['x'],a['y']+2,.8)
 text('LINK COMMANDER',124,12,1.1)
-text('REV D',130,53,.9)
+text('REV D',135,57,.9)
+text('USB1 D+',19,46.8,.8);text('USB1 D-',19,51.8,.8)
+text('USB2 D+',50,46.8,.8);text('USB2 D-',50,51.8,.8)
 text('JP1 OFF\nFOR PC USB',126,44,.8)
 text('5V IN',138,12.5,.8)
 text('+',138,22,.8);text('-',140.54,22,.8)

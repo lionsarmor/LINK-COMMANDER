@@ -23,6 +23,14 @@ breakouts during breadboarding. The finished PCB takes the sockets directly.
 Keep USB data leads short and paired, with the 22 Ω resistors beside the
 module. Do not carry the combined receiver load through long breadboard rails.
 
+## Test access
+
+The finished PCB provides TP1–TP26. On the breadboard, clip to the same
+named nets; the test holes themselves do not need separate components.
+Use the [test-point guide](test-points.md) for the power checks, PS/2
+drive/sense comparisons, voltage domains and USB resistor probe pads.
+The external supply and JP1 procedure are unchanged.
+
 ## Module wiring
 
 | Module GPIO | M1 carrier pin | Connection |

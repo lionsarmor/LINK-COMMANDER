@@ -1294,5 +1294,421 @@
     "y": 85,
     "rotation": 0,
     "notes": ""
+  },
+  {
+    "ref": "TP1",
+    "value": "5V_BOARD",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "5V_BOARD"
+      ]
+    },
+    "group": "Test access",
+    "x": 123,
+    "y": 48,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP2",
+    "value": "5V_MODULE",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "5V_MODULE"
+      ]
+    },
+    "group": "Test access",
+    "x": 89,
+    "y": 44,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP3",
+    "value": "3V3",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "3V3"
+      ]
+    },
+    "group": "Test access",
+    "x": 93,
+    "y": 49,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP4",
+    "value": "USB1_5V",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "USB1_5V"
+      ]
+    },
+    "group": "Test access",
+    "x": 47,
+    "y": 33,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP5",
+    "value": "USB2_5V",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "USB2_5V"
+      ]
+    },
+    "group": "Test access",
+    "x": 60,
+    "y": 33,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP6",
+    "value": "KBD_5V",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "KBD_5V"
+      ]
+    },
+    "group": "Test access",
+    "x": 23,
+    "y": 75,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP7",
+    "value": "MOUSE_5V",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "MOUSE_5V"
+      ]
+    },
+    "group": "Test access",
+    "x": 94,
+    "y": 75,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP8",
+    "value": "5V_INPUT",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "5V_INPUT"
+      ]
+    },
+    "group": "Test access",
+    "x": 145,
+    "y": 30,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP9",
+    "value": "KBD_DATA",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "KBD_DATA"
+      ]
+    },
+    "group": "Test access",
+    "x": 56,
+    "y": 73,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP10",
+    "value": "KBD_CLOCK",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "KBD_CLOCK"
+      ]
+    },
+    "group": "Test access",
+    "x": 56,
+    "y": 79,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP11",
+    "value": "MOUSE_DATA",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "MOUSE_DATA"
+      ]
+    },
+    "group": "Test access",
+    "x": 94,
+    "y": 81,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP12",
+    "value": "MOUSE_CLOCK",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "MOUSE_CLOCK"
+      ]
+    },
+    "group": "Test access",
+    "x": 126,
+    "y": 73,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP13",
+    "value": "GP8",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP8"
+      ]
+    },
+    "group": "Test access",
+    "x": 21,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP14",
+    "value": "GP10",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP10"
+      ]
+    },
+    "group": "Test access",
+    "x": 53,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP15",
+    "value": "GP12",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP12"
+      ]
+    },
+    "group": "Test access",
+    "x": 85,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP16",
+    "value": "GP14",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP14"
+      ]
+    },
+    "group": "Test access",
+    "x": 117,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP17",
+    "value": "GP9",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP9"
+      ]
+    },
+    "group": "Test access",
+    "x": 33,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP18",
+    "value": "GP11",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP11"
+      ]
+    },
+    "group": "Test access",
+    "x": 65,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP19",
+    "value": "GP13",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP13"
+      ]
+    },
+    "group": "Test access",
+    "x": 94,
+    "y": 55,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP20",
+    "value": "GP15",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GP15"
+      ]
+    },
+    "group": "Test access",
+    "x": 129,
+    "y": 57,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP21",
+    "value": "USB1_FAULT",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "USB1_FAULT"
+      ]
+    },
+    "group": "Test access",
+    "x": 42,
+    "y": 43,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP22",
+    "value": "USB2_FAULT",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "USB2_FAULT"
+      ]
+    },
+    "group": "Test access",
+    "x": 58,
+    "y": 43,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP23",
+    "value": "GND",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GND"
+      ]
+    },
+    "group": "Test access",
+    "x": 15,
+    "y": 43,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP24",
+    "value": "GND",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GND"
+      ]
+    },
+    "group": "Test access",
+    "x": 76,
+    "y": 46,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP25",
+    "value": "GND",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GND"
+      ]
+    },
+    "group": "Test access",
+    "x": 61,
+    "y": 84,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
+  },
+  {
+    "ref": "TP26",
+    "value": "GND",
+    "footprint": "LinkCommander:TestPoint_THT_1mm",
+    "pins": {
+      "1": [
+        "TEST",
+        "GND"
+      ]
+    },
+    "group": "Test access",
+    "x": 140,
+    "y": 76,
+    "rotation": 0,
+    "notes": "Bare plated test hole; optional short single through-hole pin. Not an extra required component."
   }
 ]

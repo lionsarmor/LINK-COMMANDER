@@ -24,3 +24,11 @@ with (ROOT/'placement.csv').open('w',newline='') as f:
  w=csv.writer(f);w.writerow(['Reference','Part','X mm','Y mm','Rotation degrees'])
  for p in PARTS:w.writerow([p['ref'],p['value'],p['x'],p['y'],p['rotation']])
 print('Wrote BOM, per-pin wiring, per-net wiring and placement tables.')
+
+# Test contacts include dedicated THT holes and existing USB resistor pads.
+with (ROOT/'test-points.csv').open('w',newline='') as f:
+ w=csv.writer(f);w.writerow(['Probe location','Net','Access type'])
+ for p in PARTS:
+  if p['ref'].startswith('TP'):w.writerow([p['ref']+'.1',p['pins']['1'][1],'Dedicated plated through-hole; optional pin'])
+ for ref in ['R3','R4','R8','R9']:
+  p=next(p for p in PARTS if p['ref']==ref);w.writerow([ref+'.1',p['pins']['1'][1],'Existing USB data resistor pad; no added stub'])

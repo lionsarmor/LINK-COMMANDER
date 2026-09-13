@@ -29,6 +29,15 @@ mounting hardware are additional purchasing items, not extra electrical
 IC positions. Use complete manufacturer part numbers: “74HC”, “CD4050”
 or “TPS2042” alone does not specify a through-hole package.
 
+## Optional test contacts
+
+TP1–TP26 are bare plated holes already part of the PCB, not 26 required
+purchased parts. Each has 2 mm copper and a 1 mm drill. Optional short
+single through-hole pins can be fitted for clip probes; check lead fit.
+The BOM lists the test positions for traceability. There are still only
+50 electrical parts, plus four mounting holes and these 26 test contacts.
+See [test-points.md](test-points.md) for the map and voltage domains.
+
 ## Resistors and capacitors
 
 | Quantity | Value | References |

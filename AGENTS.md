@@ -15,6 +15,8 @@ These are design requirements explicitly confirmed by the user:
   for the X16 PS/2 keyboard and mouse ports.
 - Support extensible receiver drivers and normalized input state. Do not
   describe all 2.4 GHz receivers as standard HID or universally compatible.
+- Keep the external regulated 5 V supply. Add labeled through-hole test access;
+  use existing resistor pads for USB data probing to avoid extra USB branches.
 - Keep schematic, PCB, BOM, cable pinouts and breadboard wiring consistent.
 
 The current design is `hardware/rev-d/`. Read its README and validation

@@ -1,0 +1,31 @@
+Probe location,Net,Access type
+TP1.1,5V_BOARD,Dedicated plated through-hole; optional pin
+TP2.1,5V_MODULE,Dedicated plated through-hole; optional pin
+TP3.1,3V3,Dedicated plated through-hole; optional pin
+TP4.1,USB1_5V,Dedicated plated through-hole; optional pin
+TP5.1,USB2_5V,Dedicated plated through-hole; optional pin
+TP6.1,KBD_5V,Dedicated plated through-hole; optional pin
+TP7.1,MOUSE_5V,Dedicated plated through-hole; optional pin
+TP8.1,5V_INPUT,Dedicated plated through-hole; optional pin
+TP9.1,KBD_DATA,Dedicated plated through-hole; optional pin
+TP10.1,KBD_CLOCK,Dedicated plated through-hole; optional pin
+TP11.1,MOUSE_DATA,Dedicated plated through-hole; optional pin
+TP12.1,MOUSE_CLOCK,Dedicated plated through-hole; optional pin
+TP13.1,GP8,Dedicated plated through-hole; optional pin
+TP14.1,GP10,Dedicated plated through-hole; optional pin
+TP15.1,GP12,Dedicated plated through-hole; optional pin
+TP16.1,GP14,Dedicated plated through-hole; optional pin
+TP17.1,GP9,Dedicated plated through-hole; optional pin
+TP18.1,GP11,Dedicated plated through-hole; optional pin
+TP19.1,GP13,Dedicated plated through-hole; optional pin
+TP20.1,GP15,Dedicated plated through-hole; optional pin
+TP21.1,USB1_FAULT,Dedicated plated through-hole; optional pin
+TP22.1,USB2_FAULT,Dedicated plated through-hole; optional pin
+TP23.1,GND,Dedicated plated through-hole; optional pin
+TP24.1,GND,Dedicated plated through-hole; optional pin
+TP25.1,GND,Dedicated plated through-hole; optional pin
+TP26.1,GND,Dedicated plated through-hole; optional pin
+R3.1,USB1_DP,Existing USB data resistor pad; no added stub
+R4.1,USB1_DM,Existing USB data resistor pad; no added stub
+R8.1,USB2_DP,Existing USB data resistor pad; no added stub
+R9.1,USB2_DM,Existing USB data resistor pad; no added stub

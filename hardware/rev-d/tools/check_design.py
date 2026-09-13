@@ -43,14 +43,24 @@ for p in [12,13,15,16]:assert by['U2']['pins'][str(p)][1] is None
 for ref,prefix in [('J4','KBD'),('J5','MOUSE')]:
  assert [by[ref]['pins'][str(k)][1] for k in range(1,5)]==[prefix+'_5V','GND',prefix+'_DATA',prefix+'_CLOCK']
  assert all(by[ref]['pins'][str(k)][1] is None for k in range(5,9))
- assert all(r.startswith(('J','R')) for r,pin in expected[prefix+'_5V'])
+ assert all(r.startswith(('J','R','TP')) for r,pin in expected[prefix+'_5V'])
+tps={p['ref']:p['pins']['1'][1] for p in parts if p['ref'].startswith('TP')}
+assert len(tps)==26 and list(tps.values()).count('GND')==4
+assert set(tps.values())=={'GND','5V_INPUT','5V_BOARD','5V_MODULE','3V3','USB1_5V','USB2_5V','KBD_5V','MOUSE_5V','USB1_FAULT','USB2_FAULT','KBD_DATA','KBD_CLOCK','MOUSE_DATA','MOUSE_CLOCK',*[f'GP{i}' for i in range(8,16)]}
 rows=list(csv.DictReader((ROOT/'breadboard-wiring.csv').open()))
-assert len(rows)==163
+assert len(rows)==sum(len(p["pins"]) for p in parts)
 for row in rows:
  pin=by[row['Component']]['pins'][row['Physical pin']]
  assert row['Pin name']==pin[0] and row['Connect to net']==(pin[1] or 'NO CONNECTION')
+probe_rows=list(csv.DictReader((ROOT/'test-points.csv').open()))
+assert len(probe_rows)==30
+for row in probe_rows:
+ ref,pin=row['Probe location'].split('.')
+ assert by[ref]['pins'][pin][1]==row['Net']
+for ref,net in [('R3','USB1_DP'),('R4','USB1_DM'),('R8','USB2_DP'),('R9','USB2_DM')]:assert by[ref]['pins']['1'][1]==net and by[ref]['pins']['2'][1]=='GND'
 assert sum(int(r['Quantity']) for r in csv.DictReader((ROOT/'bom-grouped.csv').open()))==len(parts)
-report=f'''PASS: {len(parts)} components including mounting holes; {len(expected)} named nets; 163 physical pin assignments.
+report=f'''PASS: {len(parts)} components including mounting holes; {len(expected)} named nets; {len(rows)} physical pin assignments.
+PASS: 26 through-hole test contacts cover power, PS/2, USB faults and four ground locations.
 PASS: exported schematic netlist exactly matches the canonical circuit.
 PASS: only two USB inputs, two PS/2 DIN outputs; no gamepad circuitry or nets.
 PASS: two DIP chips; header-only RP2040 with 12 used GPIOs and 8 unused GPIOs.
