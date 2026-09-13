@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/legion/Desktop/LINK COMMANDER/hardware/rev-d/kicad/link-commander.kicad_sch</source>
+    <date>Sun Sep 13 11:32:54 2026</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LINK COMMANDER — Rev D keyboard and mouse</title>
+        <company>RODDY</company>
+        <rev>D / PROTOTYPE</rev>
+        <date>2026-09-13</date>
+        <source>link-commander.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470uF 10V</value>
+      <footprint>LinkCommander:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="" part="LC_C1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e6e72d-c76f-5eb2-a745-93ad9126943a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 10V</value>
+      <footprint>LinkCommander:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="" part="LC_C2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be4f9b8d-e7d8-5f77-b6f4-43e6cb40fc0b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="" part="LC_C3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f64d5516-b833-5b02-81e1-79c284be0abc</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="" part="LC_C4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56cdb0e3-f2d8-5004-9f11-b6183526e461</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>220uF 10V</value>
+      <footprint>LinkCommander:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="" part="LC_C5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>327038d9-7321-544e-9dfe-fe2436669e27</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="" part="LC_C6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4923f6da-9738-5e40-8357-e9aff6a137d8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>220uF 10V</value>
+      <footprint>LinkCommander:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="" part="LC_C7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6970e4cc-c988-507d-985e-5886b57dc43e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="" part="LC_C8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cb4fb3f-e058-51df-a57c-04a18f728ab9</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RED FAULT</value>
+      <footprint>LinkCommander:LED_D3.0mm</footprint>
+      <libsource lib="" part="LC_D1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9dec090-a01d-5f0b-8d3c-a6ff48173f62</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>RED FAULT</value>
+      <footprint>LinkCommander:LED_D3.0mm</footprint>
+      <libsource lib="" part="LC_D2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db20d416-444a-57f7-9628-ae29b3c78c4e</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>1.5A fast 5x20</value>
+      <footprint>LinkCommander:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal</footprint>
+      <libsource lib="" part="LC_F1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>075ca86b-aa04-5dd3-8d6d-8d02c0353ca1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5V INPUT / GND</value>
+      <footprint>LinkCommander:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="" part="LC_J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95ead92e-764a-5fdc-a3d7-9bce3f881295</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB 1</value>
+      <footprint>LinkCommander:USB_A_Molex_67643_Horizontal</footprint>
+      <libsource lib="" part="LC_J2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40121eb1-f261-529d-a510-1618da218f09</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB 2</value>
+      <footprint>LinkCommander:USB_A_Molex_67643_Horizontal</footprint>
+      <libsource lib="" part="LC_J3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6625cb5-f914-5cd3-acd7-b13ef5ab82bf</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>KBD SDS-70J</value>
+      <footprint>LinkCommander:SDS-70J</footprint>
+      <libsource lib="" part="LC_J4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0459617e-c0f8-56ac-a916-ca9f835f2d77</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>MOUSE SDS-70J</value>
+      <footprint>LinkCommander:SDS-70J</footprint>
+      <libsource lib="" part="LC_J5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ae177c5-50c0-539e-a4f8-54ef46e7d1e7</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>REMOVE FOR PC USB</value>
+      <footprint>LinkCommander:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="" part="LC_JP1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>669099cd-7e8c-5349-9b55-70182027f414</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>RP2040-Zero SOCKETS</value>
+      <footprint>LinkCommander:RP2040_Zero_HeaderOnly</footprint>
+      <libsource lib="" part="LC_M1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bc7b748-14aa-5a2d-8e75-28917e0994c9</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>LinkCommander:TO-92_Inline_Wide</footprint>
+      <libsource lib="" part="LC_Q1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d9bab9c-ee66-54fe-b1ba-445096f5def2</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>LinkCommander:TO-92_Inline_Wide</footprint>
+      <libsource lib="" part="LC_Q2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a978abfe-f6ae-553a-8f40-88d9e0765f4b</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904</value>
+      <footprint>LinkCommander:TO-92_Inline_Wide</footprint>
+      <libsource lib="" part="LC_Q3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>237d22a0-7360-50da-8f6a-53bc5e3a940d</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3904</value>
+      <footprint>LinkCommander:TO-92_Inline_Wide</footprint>
+      <libsource lib="" part="LC_Q4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeacf203-8c9a-5d52-bae5-25f1f4f86735</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22R</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a4e1b1b-a2db-5247-ac8d-360d6dd9081f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22R</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b9f5ac5-48f8-5355-b64d-ed1ba7e58d11</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>15k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a665a6e-a830-5baa-a6f3-e46d4e965c53</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>15k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8140e7ee-3d38-586e-9086-c8a8526e67b9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1859ac74-4995-5f2b-977f-95f3c427d7c9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>22R</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15665521-0122-53f7-8879-a7d277c19a06</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22R</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e9219b4-7432-56ac-a783-85680c5acfc8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>15k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fb31d08-44f6-5a02-afbd-179b248a1532</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>15k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R9" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80b79fc2-924c-5878-ae3b-2e298618d395</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9333ff7-3817-587c-aed1-2e7fca300b7e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b7a33a-cc09-5cc4-8c41-0b6b700e5737</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef49168f-2271-5412-b5e9-b1a035a9b181</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20acfd47-0a3d-515a-917a-cf7ff3e6cab3</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R14" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d977f4de-5067-5bf6-88d3-3ad8aaa95932</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.2k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f88fe34-14b8-50b6-9359-86e883d31907</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>47k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R16" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8110ae11-f9ef-54d6-854b-cc009b048536</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R17" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f296b43f-f733-5551-aa22-1e887aa56459</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d306862e-7222-5b72-8fee-caac0e768807</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2.2k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R19" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83e30d6b-018a-527b-a0cb-8335dc3b2600</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>47k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R20" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feffc5f1-55ac-5592-9002-95f63c50b133</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R21" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ce72d73-9064-549d-a5c4-6b2c75052a31</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>805796ef-98df-5716-aa99-09207009de64</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>2.2k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R23" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc31361d-b06c-52c0-98e0-ad9d556083d3</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>47k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R24" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81e59317-c396-55a0-b8a3-a1b303522849</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R25" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80e8aea0-1092-55e6-b45d-8a1bc1ccb5f6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100k</value>
+      <footprint>LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="LC_R26" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cb0ed71-b4ba-55e2-b228-ff9f5a5b5eab</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS2042P</value>
+      <footprint>LinkCommander:DIP-8_W7.62mm_Socket</footprint>
+      <libsource lib="" part="LC_U1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2c44d2e-895a-5a82-acb8-03a2897375c3</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>CD4050BE</value>
+      <footprint>LinkCommander:DIP-16_W7.62mm_Socket</footprint>
+      <libsource lib="" part="LC_U2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="link-commander.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7a1545e-3ed3-5c2a-99ab-e5572b2c53f8 46ee3a11-1de2-53ca-89b8-54ec9abc7fbb aef99fc1-1bda-5613-a3a1-b4478bdbce0d 264235ab-f0e5-53e0-94ee-8f13f80aecb0 348256fd-faba-59de-99c8-dbb5fbcdd899 7005da6e-44f7-5cca-8812-0744e27cc5b4 0afde61b-94dc-5652-baec-b81a91c9fa09</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="LC_C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">470uF 10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">10uF 10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100nF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100nF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">220uF 10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">100nF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">220uF 10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100nF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">RED FAULT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">RED FAULT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">1.5A fast 5x20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">5V INPUT / GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">USB 1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="passive"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">USB 2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="passive"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">KBD SDS-70J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TARGET_5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="DATA" type="passive"/>
+        <pin num="4" name="CLOCK" type="passive"/>
+        <pin num="5" name="LATCH" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="SHELL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">MOUSE SDS-70J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TARGET_5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="DATA" type="passive"/>
+        <pin num="4" name="CLOCK" type="passive"/>
+        <pin num="5" name="LATCH" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="SHELL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_JP1">
+      <fields>
+        <field name="Reference">JP1</field>
+        <field name="Value">REMOVE FOR PC USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOARD" type="passive"/>
+        <pin num="2" name="MODULE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_M1">
+      <fields>
+        <field name="Reference">M1</field>
+        <field name="Value">RP2040-Zero SOCKETS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="passive"/>
+        <pin num="2" name="GP1" type="passive"/>
+        <pin num="3" name="GP2" type="passive"/>
+        <pin num="4" name="GP3" type="passive"/>
+        <pin num="5" name="GP4" type="passive"/>
+        <pin num="6" name="GP5" type="passive"/>
+        <pin num="7" name="GP6" type="passive"/>
+        <pin num="8" name="GP7" type="passive"/>
+        <pin num="9" name="GP8" type="passive"/>
+        <pin num="10" name="GP9" type="passive"/>
+        <pin num="11" name="GP10" type="passive"/>
+        <pin num="12" name="GP11" type="passive"/>
+        <pin num="13" name="GP12" type="passive"/>
+        <pin num="14" name="GP13" type="passive"/>
+        <pin num="15" name="GP14" type="passive"/>
+        <pin num="16" name="GP15" type="passive"/>
+        <pin num="17" name="GP26" type="passive"/>
+        <pin num="18" name="GP27" type="passive"/>
+        <pin num="19" name="GP28" type="passive"/>
+        <pin num="20" name="GP29" type="passive"/>
+        <pin num="21" name="3V3" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">2N3904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_Q2">
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">2N3904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_Q3">
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">2N3904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_Q4">
+      <fields>
+        <field name="Reference">Q4</field>
+        <field name="Value">2N3904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">22R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">2.2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">2.2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">47k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">4.7k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">100k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">2.2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">47k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">4.7k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">100k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">2.2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">22R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">47k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R21">
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">4.7k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R22">
+      <fields>
+        <field name="Reference">R22</field>
+        <field name="Value">100k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R23">
+      <fields>
+        <field name="Reference">R23</field>
+        <field name="Value">2.2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R24">
+      <fields>
+        <field name="Reference">R24</field>
+        <field name="Value">47k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R25">
+      <fields>
+        <field name="Reference">R25</field>
+        <field name="Value">4.7k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R26">
+      <fields>
+        <field name="Reference">R26</field>
+        <field name="Value">100k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">15k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">15k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">2.2k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">22R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">22R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">15k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">15k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">TPS2042P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IN" type="passive"/>
+        <pin num="3" name="/EN1" type="passive"/>
+        <pin num="4" name="/EN2" type="passive"/>
+        <pin num="5" name="/OC2" type="passive"/>
+        <pin num="6" name="OUT2" type="passive"/>
+        <pin num="7" name="OUT1" type="passive"/>
+        <pin num="8" name="/OC1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LC_U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">CD4050BE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="Y0" type="passive"/>
+        <pin num="3" name="A0" type="passive"/>
+        <pin num="4" name="Y1" type="passive"/>
+        <pin num="5" name="A1" type="passive"/>
+        <pin num="6" name="Y2" type="passive"/>
+        <pin num="7" name="A2" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="A3" type="passive"/>
+        <pin num="10" name="Y3" type="passive"/>
+        <pin num="11" name="A4" type="passive"/>
+        <pin num="12" name="Y4" type="passive"/>
+        <pin num="13" name="NC" type="passive"/>
+        <pin num="14" name="A5" type="passive"/>
+        <pin num="15" name="Y5" type="passive"/>
+        <pin num="16" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/3V3">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="M1" pin="21" pinfunction="3V3" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="2" name="/5V_BOARD">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="OUT" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="BOARD" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN" pintype="passive"/>
+    </net>
+    <net code="3" name="/5V_INPUT">
+      <node ref="F1" pin="1" pinfunction="IN" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+5V" pintype="passive"/>
+    </net>
+    <net code="4" name="/5V_MODULE">
+      <node ref="JP1" pin="2" pinfunction="MODULE" pintype="passive"/>
+      <node ref="M1" pin="23" pinfunction="5V" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="M1" pin="22" pinfunction="GND" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="/EN1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="/EN2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="A4" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="A5" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="6" name="/GP0">
+      <node ref="M1" pin="1" pinfunction="GP0" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/GP1">
+      <node ref="M1" pin="2" pinfunction="GP1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/GP2">
+      <node ref="M1" pin="3" pinfunction="GP2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/GP3">
+      <node ref="M1" pin="4" pinfunction="GP3" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/GP8">
+      <node ref="M1" pin="9" pinfunction="GP8" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/GP9">
+      <node ref="M1" pin="10" pinfunction="GP9" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="Y0" pintype="passive"/>
+    </net>
+    <net code="12" name="/GP10">
+      <node ref="M1" pin="11" pinfunction="GP10" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/GP11">
+      <node ref="M1" pin="12" pinfunction="GP11" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Y1" pintype="passive"/>
+    </net>
+    <net code="14" name="/GP12">
+      <node ref="M1" pin="13" pinfunction="GP12" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/GP13">
+      <node ref="M1" pin="14" pinfunction="GP13" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="Y2" pintype="passive"/>
+    </net>
+    <net code="16" name="/GP14">
+      <node ref="M1" pin="15" pinfunction="GP14" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/GP15">
+      <node ref="M1" pin="16" pinfunction="GP15" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="Y3" pintype="passive"/>
+    </net>
+    <net code="18" name="/KBD_5V">
+      <node ref="J4" pin="1" pinfunction="TARGET_5V" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/KBD_CLOCK">
+      <node ref="J4" pin="4" pinfunction="CLOCK" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="20" name="/KBD_DATA">
+      <node ref="J4" pin="3" pinfunction="DATA" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="21" name="/MOUSE_5V">
+      <node ref="J5" pin="1" pinfunction="TARGET_5V" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/MOUSE_CLOCK">
+      <node ref="J5" pin="4" pinfunction="CLOCK" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="23" name="/MOUSE_DATA">
+      <node ref="J5" pin="3" pinfunction="DATA" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="24" name="/Q1_B">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/Q2_B">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/Q3_B">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/Q4_B">
+      <node ref="Q4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/USB1_5V">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OUT1" pintype="passive"/>
+    </net>
+    <net code="29" name="/USB1_DM">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/USB1_DP">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="/USB1_FAULT">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="/OC1" pintype="passive"/>
+    </net>
+    <net code="32" name="/USB1_LED_A">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/USB2_5V">
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUT2" pintype="passive"/>
+    </net>
+    <net code="34" name="/USB2_DM">
+      <node ref="J3" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/USB2_DP">
+      <node ref="J3" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/USB2_FAULT">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="/OC2" pintype="passive"/>
+    </net>
+    <net code="37" name="/USB2_LED_A">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(J4-LATCH-Pad5)">
+      <node ref="J4" pin="5" pinfunction="LATCH" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J4-NC-Pad6)">
+      <node ref="J4" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J4-NC-Pad7)">
+      <node ref="J4" pin="7" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J4-SHELL-Pad8)">
+      <node ref="J4" pin="8" pinfunction="SHELL" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J5-LATCH-Pad5)">
+      <node ref="J5" pin="5" pinfunction="LATCH" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J5-NC-Pad6)">
+      <node ref="J5" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J5-NC-Pad7)">
+      <node ref="J5" pin="7" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J5-SHELL-Pad8)">
+      <node ref="J5" pin="8" pinfunction="SHELL" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(M1-GP4-Pad5)">
+      <node ref="M1" pin="5" pinfunction="GP4" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(M1-GP5-Pad6)">
+      <node ref="M1" pin="6" pinfunction="GP5" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(M1-GP6-Pad7)">
+      <node ref="M1" pin="7" pinfunction="GP6" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(M1-GP7-Pad8)">
+      <node ref="M1" pin="8" pinfunction="GP7" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(M1-GP26-Pad17)">
+      <node ref="M1" pin="17" pinfunction="GP26" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(M1-GP27-Pad18)">
+      <node ref="M1" pin="18" pinfunction="GP27" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(M1-GP28-Pad19)">
+      <node ref="M1" pin="19" pinfunction="GP28" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(M1-GP29-Pad20)">
+      <node ref="M1" pin="20" pinfunction="GP29" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U2E-Y4-Pad12)">
+      <node ref="U2" pin="12" pinfunction="Y4" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U2F-Y5-Pad15)">
+      <node ref="U2" pin="15" pinfunction="Y5" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U2G-NC-Pad13)">
+      <node ref="U2" pin="13" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U2G-NC-Pad16)">
+      <node ref="U2" pin="16" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

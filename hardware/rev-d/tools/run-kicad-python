@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+lc_kicad_root="${LC_KICAD_ROOT:-/home/legion/.cache/link-commander-tools/kicad7/usr}"
+export LD_LIBRARY_PATH="$lc_kicad_root/lib/x86_64-linux-gnu${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+export PYTHONPATH="$lc_kicad_root/lib/python3/dist-packages${PYTHONPATH:+:$PYTHONPATH}"
+export KICAD_FOOTPRINT_DIR="$lc_kicad_root/share/kicad/footprints"
+exec python3 "$@"

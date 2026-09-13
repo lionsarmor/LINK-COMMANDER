@@ -1,0 +1,24 @@
+Quantity,Part / value,Through-hole footprint,References
+1,5V INPUT / GND,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,J1
+1,1.5A fast 5x20,Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal,F1
+1,REMOVE FOR PC USB,PinHeader_1x02_P2.54mm_Vertical,JP1
+1,RP2040-Zero SOCKETS,RP2040_Zero_HeaderOnly,M1
+1,470uF 10V,CP_Radial_D10.0mm_P5.00mm,C1
+1,10uF 10V,CP_Radial_D5.0mm_P2.00mm,C2
+4,100nF,C_Disc_D5.0mm_W2.5mm_P5.00mm,C3 C4 C6 C8
+1,USB 1,USB_A_Molex_67643_Horizontal,J2
+1,TPS2042P,DIP-8_W7.62mm_Socket,U1
+4,22R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R1 R2 R6 R7
+4,15k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R3 R4 R8 R9
+6,2.2k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R5 R10 R11 R15 R19 R23
+2,220uF 10V,CP_Radial_D6.3mm_P2.50mm,C5 C7
+2,RED FAULT,LED_D3.0mm,D1 D2
+1,USB 2,USB_A_Molex_67643_Horizontal,J3
+1,KBD SDS-70J,SDS-70J,J4
+1,MOUSE SDS-70J,SDS-70J,J5
+4,2N3904,TO-92_Inline_Wide,Q1 Q2 Q3 Q4
+4,47k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R12 R16 R20 R24
+4,4.7k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R13 R17 R21 R25
+4,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,R14 R18 R22 R26
+1,CD4050BE,DIP-16_W7.62mm_Socket,U2
+4,M3,MountingHole_3.2mm_M3,H1 H2 H3 H4

@@ -1,0 +1,6 @@
+# Machine-generated KiCad plots and routing sessions retain exporter formatting.
+hardware/rev-d/review/*.svg -whitespace
+hardware/rev-d/review/*.ses -whitespace
+# CSV uses standard CRLF records; preserve the upstream footprint license verbatim.
+*.csv whitespace=cr-at-eol
+hardware/rev-d/kicad/FOOTPRINT-LICENSE.txt -whitespace

@@ -1,0 +1,1298 @@
+[
+  {
+    "ref": "J1",
+    "value": "5V INPUT / GND",
+    "footprint": "LinkCommander:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal",
+    "pins": {
+      "1": [
+        "+5V",
+        "5V_INPUT"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ]
+    },
+    "group": "Power and module",
+    "x": 138,
+    "y": 17,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "F1",
+    "value": "1.5A fast 5x20",
+    "footprint": "LinkCommander:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal",
+    "pins": {
+      "1": [
+        "IN",
+        "5V_INPUT"
+      ],
+      "2": [
+        "OUT",
+        "5V_BOARD"
+      ]
+    },
+    "group": "Power and module",
+    "x": 119,
+    "y": 27,
+    "rotation": 0,
+    "notes": "Input fuse, 1.5 A fast, 5 x 20 mm; regulated 5 V / 2 A supply."
+  },
+  {
+    "ref": "JP1",
+    "value": "REMOVE FOR PC USB",
+    "footprint": "LinkCommander:PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": [
+        "BOARD",
+        "5V_BOARD"
+      ],
+      "2": [
+        "MODULE",
+        "5V_MODULE"
+      ]
+    },
+    "group": "Power and module",
+    "x": 128,
+    "y": 37,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "M1",
+    "value": "RP2040-Zero SOCKETS",
+    "footprint": "LinkCommander:RP2040_Zero_HeaderOnly",
+    "pins": {
+      "1": [
+        "GP0",
+        "GP0"
+      ],
+      "2": [
+        "GP1",
+        "GP1"
+      ],
+      "3": [
+        "GP2",
+        "GP2"
+      ],
+      "4": [
+        "GP3",
+        "GP3"
+      ],
+      "5": [
+        "GP4",
+        null
+      ],
+      "6": [
+        "GP5",
+        null
+      ],
+      "7": [
+        "GP6",
+        null
+      ],
+      "8": [
+        "GP7",
+        null
+      ],
+      "9": [
+        "GP8",
+        "GP8"
+      ],
+      "10": [
+        "GP9",
+        "GP9"
+      ],
+      "11": [
+        "GP10",
+        "GP10"
+      ],
+      "12": [
+        "GP11",
+        "GP11"
+      ],
+      "13": [
+        "GP12",
+        "GP12"
+      ],
+      "14": [
+        "GP13",
+        "GP13"
+      ],
+      "15": [
+        "GP14",
+        "GP14"
+      ],
+      "16": [
+        "GP15",
+        "GP15"
+      ],
+      "17": [
+        "GP26",
+        null
+      ],
+      "18": [
+        "GP27",
+        null
+      ],
+      "19": [
+        "GP28",
+        null
+      ],
+      "20": [
+        "GP29",
+        null
+      ],
+      "21": [
+        "3V3",
+        "3V3"
+      ],
+      "22": [
+        "GND",
+        "GND"
+      ],
+      "23": [
+        "5V",
+        "5V_MODULE"
+      ]
+    },
+    "group": "Power and module",
+    "x": 76,
+    "y": 15,
+    "rotation": 0,
+    "notes": "Socketed perimeter headers; GP0-3 USB, GP8-15 PS/2. Other GPIOs unused."
+  },
+  {
+    "ref": "C1",
+    "value": "470uF 10V",
+    "footprint": "LinkCommander:CP_Radial_D10.0mm_P5.00mm",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BOARD"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Power and module",
+    "x": 141,
+    "y": 43,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C2",
+    "value": "10uF 10V",
+    "footprint": "LinkCommander:CP_Radial_D5.0mm_P2.00mm",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Power and module",
+    "x": 88,
+    "y": 50,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C3",
+    "value": "100nF",
+    "footprint": "LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "pins": {
+      "1": [
+        "1",
+        "3V3"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Input conversion and reset logic",
+    "x": 113,
+    "y": 37,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "J2",
+    "value": "USB 1",
+    "footprint": "LinkCommander:USB_A_Molex_67643_Horizontal",
+    "pins": {
+      "1": [
+        "VBUS",
+        "USB1_5V"
+      ],
+      "2": [
+        "D-",
+        "USB1_DM"
+      ],
+      "3": [
+        "D+",
+        "USB1_DP"
+      ],
+      "4": [
+        "GND",
+        "GND"
+      ],
+      "5": [
+        "SHIELD",
+        "GND"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 29,
+    "y": 21,
+    "rotation": 180,
+    "notes": ""
+  },
+  {
+    "ref": "U1",
+    "value": "TPS2042P",
+    "footprint": "LinkCommander:DIP-8_W7.62mm_Socket",
+    "pins": {
+      "1": [
+        "GND",
+        "GND"
+      ],
+      "2": [
+        "IN",
+        "5V_BOARD"
+      ],
+      "3": [
+        "/EN1",
+        "GND"
+      ],
+      "4": [
+        "/EN2",
+        "GND"
+      ],
+      "5": [
+        "/OC2",
+        "USB2_FAULT"
+      ],
+      "6": [
+        "OUT2",
+        "USB2_5V"
+      ],
+      "7": [
+        "OUT1",
+        "USB1_5V"
+      ],
+      "8": [
+        "/OC1",
+        "USB1_FAULT"
+      ]
+    },
+    "group": "Dual USB power protection",
+    "x": 23,
+    "y": 36,
+    "rotation": 0,
+    "notes": "Dual-channel TPS2042P DIP-8. /EN1 and /EN2 grounded. OUT1 pin7 keyboard; OUT2 pin6 mouse. Not pin-compatible with TPS2041P."
+  },
+  {
+    "ref": "R1",
+    "value": "22R",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP0"
+      ],
+      "2": [
+        "2",
+        "USB1_DP"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 99,
+    "y": 18,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R2",
+    "value": "22R",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP1"
+      ],
+      "2": [
+        "2",
+        "USB1_DM"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 99,
+    "y": 23,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R3",
+    "value": "15k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "USB1_DP"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 19,
+    "y": 49,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R4",
+    "value": "15k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "USB1_DM"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 19,
+    "y": 54,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R5",
+    "value": "2.2k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BOARD"
+      ],
+      "2": [
+        "2",
+        "USB1_LED_A"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 33,
+    "y": 54,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C4",
+    "value": "100nF",
+    "footprint": "LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BOARD"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 34,
+    "y": 36,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C5",
+    "value": "220uF 10V",
+    "footprint": "LinkCommander:CP_Radial_D6.3mm_P2.50mm",
+    "pins": {
+      "1": [
+        "1",
+        "USB1_5V"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 40,
+    "y": 29,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C6",
+    "value": "100nF",
+    "footprint": "LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "pins": {
+      "1": [
+        "1",
+        "USB1_5V"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 40,
+    "y": 39,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "D1",
+    "value": "RED FAULT",
+    "footprint": "LinkCommander:LED_D3.0mm",
+    "pins": {
+      "1": [
+        "K",
+        "USB1_FAULT"
+      ],
+      "2": [
+        "A",
+        "USB1_LED_A"
+      ]
+    },
+    "group": "USB input 1",
+    "x": 40,
+    "y": 50,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "J3",
+    "value": "USB 2",
+    "footprint": "LinkCommander:USB_A_Molex_67643_Horizontal",
+    "pins": {
+      "1": [
+        "VBUS",
+        "USB2_5V"
+      ],
+      "2": [
+        "D-",
+        "USB2_DM"
+      ],
+      "3": [
+        "D+",
+        "USB2_DP"
+      ],
+      "4": [
+        "GND",
+        "GND"
+      ],
+      "5": [
+        "SHIELD",
+        "GND"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 60,
+    "y": 21,
+    "rotation": 180,
+    "notes": ""
+  },
+  {
+    "ref": "R6",
+    "value": "22R",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP2"
+      ],
+      "2": [
+        "2",
+        "USB2_DP"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 99,
+    "y": 28,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R7",
+    "value": "22R",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP3"
+      ],
+      "2": [
+        "2",
+        "USB2_DM"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 99,
+    "y": 33,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R8",
+    "value": "15k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "USB2_DP"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 50,
+    "y": 49,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R9",
+    "value": "15k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "USB2_DM"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 50,
+    "y": 54,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R10",
+    "value": "2.2k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BOARD"
+      ],
+      "2": [
+        "2",
+        "USB2_LED_A"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 64,
+    "y": 54,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C7",
+    "value": "220uF 10V",
+    "footprint": "LinkCommander:CP_Radial_D6.3mm_P2.50mm",
+    "pins": {
+      "1": [
+        "1",
+        "USB2_5V"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 67,
+    "y": 29,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "C8",
+    "value": "100nF",
+    "footprint": "LinkCommander:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+    "pins": {
+      "1": [
+        "1",
+        "USB2_5V"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 68,
+    "y": 41,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "D2",
+    "value": "RED FAULT",
+    "footprint": "LinkCommander:LED_D3.0mm",
+    "pins": {
+      "1": [
+        "K",
+        "USB2_FAULT"
+      ],
+      "2": [
+        "A",
+        "USB2_LED_A"
+      ]
+    },
+    "group": "USB input 2",
+    "x": 71,
+    "y": 50,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "J4",
+    "value": "KBD SDS-70J",
+    "footprint": "LinkCommander:SDS-70J",
+    "pins": {
+      "1": [
+        "TARGET_5V",
+        "KBD_5V"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "DATA",
+        "KBD_DATA"
+      ],
+      "4": [
+        "CLOCK",
+        "KBD_CLOCK"
+      ],
+      "5": [
+        "LATCH",
+        null
+      ],
+      "6": [
+        "NC",
+        null
+      ],
+      "7": [
+        "NC",
+        null
+      ],
+      "8": [
+        "SHELL",
+        null
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 40,
+    "y": 86,
+    "rotation": 180,
+    "notes": "Custom cable only; E shell contacts unconnected. Target 5V is reference/pull-ups, not board power."
+  },
+  {
+    "ref": "J5",
+    "value": "MOUSE SDS-70J",
+    "footprint": "LinkCommander:SDS-70J",
+    "pins": {
+      "1": [
+        "TARGET_5V",
+        "MOUSE_5V"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "DATA",
+        "MOUSE_DATA"
+      ],
+      "4": [
+        "CLOCK",
+        "MOUSE_CLOCK"
+      ],
+      "5": [
+        "LATCH",
+        null
+      ],
+      "6": [
+        "NC",
+        null
+      ],
+      "7": [
+        "NC",
+        null
+      ],
+      "8": [
+        "SHELL",
+        null
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 111,
+    "y": 86,
+    "rotation": 180,
+    "notes": "Custom cable only; E shell contacts unconnected. Target 5V is reference/pull-ups, not board power."
+  },
+  {
+    "ref": "Q1",
+    "value": "2N3904",
+    "footprint": "LinkCommander:TO-92_Inline_Wide",
+    "pins": {
+      "1": [
+        "E",
+        "GND"
+      ],
+      "2": [
+        "B",
+        "Q1_B"
+      ],
+      "3": [
+        "C",
+        "KBD_DATA"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 44,
+    "y": 67,
+    "rotation": 90,
+    "notes": ""
+  },
+  {
+    "ref": "R11",
+    "value": "2.2k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP8"
+      ],
+      "2": [
+        "2",
+        "Q1_B"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 17,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R12",
+    "value": "47k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "Q1_B"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 30,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R13",
+    "value": "4.7k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "KBD_5V"
+      ],
+      "2": [
+        "2",
+        "KBD_DATA"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 17,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R14",
+    "value": "100k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "KBD_DATA"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 30,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "Q2",
+    "value": "2N3904",
+    "footprint": "LinkCommander:TO-92_Inline_Wide",
+    "pins": {
+      "1": [
+        "E",
+        "GND"
+      ],
+      "2": [
+        "B",
+        "Q2_B"
+      ],
+      "3": [
+        "C",
+        "KBD_CLOCK"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 76,
+    "y": 67,
+    "rotation": 90,
+    "notes": ""
+  },
+  {
+    "ref": "R15",
+    "value": "2.2k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP10"
+      ],
+      "2": [
+        "2",
+        "Q2_B"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 49,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R16",
+    "value": "47k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "Q2_B"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 62,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R17",
+    "value": "4.7k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "KBD_5V"
+      ],
+      "2": [
+        "2",
+        "KBD_CLOCK"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 49,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R18",
+    "value": "100k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "KBD_CLOCK"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Keyboard PS/2",
+    "x": 62,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "Q3",
+    "value": "2N3904",
+    "footprint": "LinkCommander:TO-92_Inline_Wide",
+    "pins": {
+      "1": [
+        "E",
+        "GND"
+      ],
+      "2": [
+        "B",
+        "Q3_B"
+      ],
+      "3": [
+        "C",
+        "MOUSE_DATA"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 108,
+    "y": 67,
+    "rotation": 90,
+    "notes": ""
+  },
+  {
+    "ref": "R19",
+    "value": "2.2k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP12"
+      ],
+      "2": [
+        "2",
+        "Q3_B"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 81,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R20",
+    "value": "47k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "Q3_B"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 94,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R21",
+    "value": "4.7k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "MOUSE_5V"
+      ],
+      "2": [
+        "2",
+        "MOUSE_DATA"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 81,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "MOUSE_DATA"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 94,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "Q4",
+    "value": "2N3904",
+    "footprint": "LinkCommander:TO-92_Inline_Wide",
+    "pins": {
+      "1": [
+        "E",
+        "GND"
+      ],
+      "2": [
+        "B",
+        "Q4_B"
+      ],
+      "3": [
+        "C",
+        "MOUSE_CLOCK"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 140,
+    "y": 67,
+    "rotation": 90,
+    "notes": ""
+  },
+  {
+    "ref": "R23",
+    "value": "2.2k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "GP14"
+      ],
+      "2": [
+        "2",
+        "Q4_B"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 113,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R24",
+    "value": "47k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "Q4_B"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 126,
+    "y": 61,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R25",
+    "value": "4.7k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "MOUSE_5V"
+      ],
+      "2": [
+        "2",
+        "MOUSE_CLOCK"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 113,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "R26",
+    "value": "100k",
+    "footprint": "LinkCommander:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+    "pins": {
+      "1": [
+        "1",
+        "MOUSE_CLOCK"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "group": "Mouse PS/2",
+    "x": 126,
+    "y": 66,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "U2",
+    "value": "CD4050BE",
+    "footprint": "LinkCommander:DIP-16_W7.62mm_Socket",
+    "pins": {
+      "1": [
+        "VCC",
+        "3V3"
+      ],
+      "8": [
+        "GND",
+        "GND"
+      ],
+      "13": [
+        "NC",
+        null
+      ],
+      "16": [
+        "NC",
+        null
+      ],
+      "3": [
+        "A0",
+        "KBD_DATA"
+      ],
+      "2": [
+        "Y0",
+        "GP9"
+      ],
+      "5": [
+        "A1",
+        "KBD_CLOCK"
+      ],
+      "4": [
+        "Y1",
+        "GP11"
+      ],
+      "7": [
+        "A2",
+        "MOUSE_DATA"
+      ],
+      "6": [
+        "Y2",
+        "GP13"
+      ],
+      "9": [
+        "A3",
+        "MOUSE_CLOCK"
+      ],
+      "10": [
+        "Y3",
+        "GP15"
+      ],
+      "11": [
+        "A4",
+        "GND"
+      ],
+      "12": [
+        "Y4",
+        null
+      ],
+      "14": [
+        "A5",
+        "GND"
+      ],
+      "15": [
+        "Y5",
+        null
+      ]
+    },
+    "group": "PS/2 level conversion",
+    "x": 100,
+    "y": 37,
+    "rotation": 0,
+    "notes": "CD4050BE DIP-16, VCC pin 1 = 3V3; GND pin 8. Non-inverting sense. Unused inputs tied to GND."
+  },
+  {
+    "ref": "H1",
+    "value": "M3",
+    "footprint": "LinkCommander:MountingHole_3.2mm_M3",
+    "pins": {},
+    "group": "Mechanical",
+    "x": 15,
+    "y": 35,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "H2",
+    "value": "M3",
+    "footprint": "LinkCommander:MountingHole_3.2mm_M3",
+    "pins": {},
+    "group": "Mechanical",
+    "x": 115,
+    "y": 15,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "H3",
+    "value": "M3",
+    "footprint": "LinkCommander:MountingHole_3.2mm_M3",
+    "pins": {},
+    "group": "Mechanical",
+    "x": 15,
+    "y": 85,
+    "rotation": 0,
+    "notes": ""
+  },
+  {
+    "ref": "H4",
+    "value": "M3",
+    "footprint": "LinkCommander:MountingHole_3.2mm_M3",
+    "pins": {},
+    "group": "Mechanical",
+    "x": 145,
+    "y": 85,
+    "rotation": 0,
+    "notes": ""
+  }
+]

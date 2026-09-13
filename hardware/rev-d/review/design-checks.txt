@@ -1,0 +1,11 @@
+PASS: 54 components including mounting holes; 37 named nets; 163 physical pin assignments.
+PASS: exported schematic netlist exactly matches the canonical circuit.
+PASS: only two USB inputs, two PS/2 DIN outputs; no gamepad circuitry or nets.
+PASS: two DIP chips; header-only RP2040 with 12 used GPIOs and 8 unused GPIOs.
+PASS: dual TPS2042P outputs/faults and both active-low enables are correct.
+PASS: four USB 22-ohm series paths and four 15-kilohm host pulldowns.
+PASS: four low-only transistor outputs and four non-inverting CD4050 sense paths.
+PASS: CD4050 supply/unused pins and target-reference power separation.
+NOT TESTED: physical fit, electrical timing/thresholds, USB signal integrity,
+firmware operation, USB receiver compatibility, or actual X16 operation.
+This is a netlist/structural check, not an electrical simulation or full ERC.
