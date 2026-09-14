@@ -5,7 +5,10 @@ The schematic embeds its symbols and the PCB uses the supplied local
 footprint library. The editable files can be opened directly in KiCad.
 
 `python3 tools/build.py` redraws the single-page schematic and regenerates
-the BOM/wiring tables. It preserves the routed PCB. After schematic changes,
+the BOM/wiring tables, including the root `BREADBOARD-PARTS.csv`,
+`BREADBOARD-WIRING.csv` and the generated parts table inside `BREADBOARD.md`.
+The root wiring CSV is the full two-port circuit; keyboard-only temporary
+connections are described in the root guide. It preserves the routed PCB. After schematic changes,
 export a fresh XML netlist with KiCad and run `python3 tools/check_design.py`.
 That check compares actual exported nets with the source, and separately
 checks the two-port PS/2 interface, non-inverted sense signals, USB power

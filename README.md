@@ -11,6 +11,9 @@ through-hole. No USB hub or onboard radio is required.
 A separate regulated **5 V / 2 A supply** powers the module and USB ports.
 The X16 PS/2 +5 V lines supply only their signal pull-ups.
 
+**Start breadboarding:** [Wiring instructions and parts list](BREADBOARD.md) ·
+[Parts CSV](BREADBOARD-PARTS.csv) · [Complete wiring CSV](BREADBOARD-WIRING.csv)
+
 ![Rev D PCB preview](hardware/rev-d/review/pcb-top.png)
 
 - [Exploratory PS/2 simulation and its limits](hardware/rev-d/simulation/README.md)
@@ -20,7 +23,7 @@ The X16 PS/2 +5 V lines supply only their signal pull-ups.
 - [Assembly PDF](hardware/rev-d/review/assembly.pdf)
 - [Editable KiCad project](hardware/rev-d/kicad/link-commander.kicad_pro)
 - [Complete Rev D review ZIP](hardware/link-commander-rev-d-review.zip)
-- [Breadboard guide and custom cables](hardware/rev-d/breadboard.md)
+- [Breadboard guide and custom cables](BREADBOARD.md)
 - [Pin-by-pin wiring table](hardware/rev-d/breadboard-wiring.csv)
 - [Grouped BOM](hardware/rev-d/bom-grouped.csv) and [purchasing notes](hardware/rev-d/parts.md)
 - [Design details and validation status](hardware/rev-d/README.md)
