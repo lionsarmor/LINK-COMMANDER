@@ -16,6 +16,7 @@ the RP2040 or USB ports. All grounds are shared.
 
 ## Start here
 
+- [Exploratory PS/2 simulation and its limits](simulation/README.md)
 - [Test-point map and expected readings](test-points.md) and [probe CSV](test-points.csv)
 - [Student design guide: how the circuit works](student-guide.md)
 - [One-page schematic PDF](review/schematic.pdf)

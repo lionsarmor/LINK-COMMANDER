@@ -111,3 +111,10 @@ With the X16 disconnected, use test firmware and a meter/logic analyzer to
 confirm the truth table above. Then verify host-command handling on a
 PS/2 test fixture before attempting an X16 test. Test firmware and bridge
 firmware have not yet been supplied or validated in this revision.
+
+## Simulating the switch
+
+The [SPICE study](simulation/README.md) shows an example of drive, cable
+and sense voltages. Its GPIO and host are test stimuli, not running
+firmware. Read the model limitations before comparing the plot with
+measurements from your own circuit.

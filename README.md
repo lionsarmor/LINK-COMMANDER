@@ -13,6 +13,7 @@ The X16 PS/2 +5 V lines supply only their signal pull-ups.
 
 ![Rev D PCB preview](hardware/rev-d/review/pcb-top.png)
 
+- [Exploratory PS/2 simulation and its limits](hardware/rev-d/simulation/README.md)
 - [Test points and expected readings](hardware/rev-d/test-points.md)
 - [Student guide: how it works](hardware/rev-d/student-guide.md)
 - [One-page schematic PDF](hardware/rev-d/review/schematic.pdf)

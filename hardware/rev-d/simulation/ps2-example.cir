@@ -1,0 +1,38 @@
+Rev D KBD_DATA_5.0_500: nominal resistor values, 25 C. No actual firmware/host model.
+.include "models/2N3904.lib"
+.include "models/CD4050B-local.lib"
+.temp 25
+Vtarget target 0 5.0
+Vlogic vcc 0 3.3
+* GPIO stimulus, 30 ohm assumed source resistance. Not an RP2040 transistor model.
+Vdrive stimulus 0 PULSE(0 3.3 10u 100n 100n 20u 100u)
+Rgpio stimulus drive 30
+Rb drive base 2200.0
+Rpd base 0 47000.0
+Qpull line base 0 Q2n3904
+Rpu target line 4700.0
+Rline line 0 100000.0
+* Assumed external cable/connector/probe capacitance; CD4050 input capacitance is in its model.
+Ccable line 0 500p
+Xbuf sense line vcc 0 CD4050B
+Csense sense 0 10p
+* Host is only an ideal low-side switch, 10 ohm on resistance, with no extra host pullup.
+Vhost host 0 PULSE(0 3.3 55u 100n 100n 15u 100u)
+Shost line 0 host 0 host_switch
+.model host_switch SW(Ron=10 Roff=1e12 Vt=1.65 Vh=0)
+.control
+set wr_singlescale
+set wr_vecnames
+tran 50n 100u
+meas tran idle_line find v(line) at=5u
+meas tran driven_line find v(line) at=20u
+meas tran host_line find v(line) at=60u
+meas tran idle_sense find v(sense) at=5u
+meas tran driven_sense find v(sense) at=20u
+meas tran host_sense find v(sense) at=60u
+meas tran release_10_90 trig v(line) val=0.4775549188156638 rise=1 td=29u targ v(line) val=4.297994269340974 rise=1 td=29u
+meas tran base_drive find v(base) at=20u
+wrdata waveform.txt v(stimulus) v(host) v(line) v(sense)
+quit
+.endc
+.end

@@ -1,0 +1,10 @@
+36 / 36 exploratory cases met the stated static voltage checks.
+Highest simulated driven cable LOW (model artifact; see README): -0.0139 V
+Min released cable HIGH: 4.5367 V
+Max host-held cable LOW: 0.0111 V
+GPIO drive current range: 1.108–1.254 mA
+Cable 10–90% release rise time: 1.054–9.931 microseconds
+Scope: four channels; three paired supplies; 100/500/1000 pF external capacitance; 25 C; nominal resistors.
+No USB host, firmware, power startup/sequencing, chip temperature corners, PCB parasitic extraction or actual X16 simulation.
+Model caveat: the 2N3904 model predicts a small negative driven LOW (~-14 to -15 mV); this is not a validated physical voltage.
+CD4050 is a locally corrected behavioral model; its 3.3 V timing/drive strength is not qualified by this study.
