@@ -1,5 +1,7 @@
 # LINK COMMANDER — Rev D
 
+**Shopping links:** [Amazon](SHOPPING-AMAZON.md) · [Mouser](SHOPPING-MOUSER.md) — quantities for keyboard-first and the full keyboard/mouse build.
+
 A through-hole USB keyboard and mouse adapter for the **Commander X16**.
 The RP2040-Zero translates supported wired devices or 2.4 GHz USB receivers
 into PS/2 keyboard and mouse signals. Rev D removes all gamepad support.

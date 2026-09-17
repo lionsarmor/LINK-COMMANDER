@@ -1,5 +1,7 @@
 # LINK COMMANDER Rev D — breadboard wiring and parts
 
+**Shopping links:** [Amazon](SHOPPING-AMAZON.md) · [Mouser](SHOPPING-MOUSER.md) — quantities for keyboard-first and the full keyboard/mouse build.
+
 **Build the keyboard half first, then add the mouse.** This guide is for
 Rev D: RP2040-Zero module, two USB inputs, two 7-pin DIN outputs, and an
 external regulated 5 V supply. It does not include gamepad circuitry.
