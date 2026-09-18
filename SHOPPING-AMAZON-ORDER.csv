@@ -1,0 +1,22 @@
+Store,SKU or ASIN,Buy quantity,Description,Product URL,Use or condition
+Amazon,B07P3MFG5D,1 kit,"BOJACK 50-value, 1,350-piece resistor assortment",https://www.amazon.com/dp/B07P3MFG5D,"All six required 1%, ¼ W axial resistor values; installed quantities below."
+Amazon,B07PBQXQNQ,1 kit,BOJACK 630-piece radial electrolytic assortment,https://www.amazon.com/dp/B07PBQXQNQ,C1: 1 × 470 µF; C2: 1 × 10 µF; C5/C7: 2 × 220 µF. Choose ratings ≥10 V.
+Amazon,B07P8N8BW9,1 kit,BOJACK 15-value leaded ceramic assortment,https://www.amazon.com/dp/B07P8N8BW9,"C3/C4/C6/C8: 4 × 100 nF (104), 50 V. Keyboard-only uses 3."
+Amazon,B07T61SY9Y,1 kit,BOJACK 10-type TO-92 transistor assortment,https://www.amazon.com/dp/B07T61SY9Y,"Use only the 2N3904 parts: 2 for keyboard, 4 full. Other transistor types are not substitutes."
+Amazon,B0F38LJDJB,1 kit,300-piece 3 mm / 5 mm LED assortment,https://www.amazon.com/dp/B0F38LJDJB,"Choose the plain 3 mm red LEDs: 1 keyboard, 2 full; retain circuit resistors."
+Amazon,B0813Q4S6P,1 kit,BOJACK 5×20 inline holders and fast-fuse assortment,https://www.amazon.com/dp/B0813Q4S6P,Use 1 holder and 1 × 1.5 A fast fuse for either build. Other fuse values stay unused.
+Amazon,B078RXZM4C,1 supply,ALITOVE fixed 5 V / 3 A supply with female screw-terminal adapter,https://www.amazon.com/dp/B078RXZM4C,External supply AND J1 breadboard power connection. Included adapter avoids a separate barrel-adapter purchase.
+Amazon,B0978QLHVD,1 pack,JING three sets of full-size 7-pin DIN cable plugs / panel sockets,https://www.amazon.com/dp/B0978QLHVD,"Use 1 male plug keyboard, 2 full. Female panel sockets are spare; reuse your DIN breakouts. These are not the PCB-mounted SDS-70J sockets."
+Amazon,B0933GL5CX,1 cable,JUXINICE 6 ft PS/2 male-to-male cable,https://www.amazon.com/dp/B0933GL5CX,Cut in half: two approximately 3 ft male-ended sections for the custom keyboard/mouse cables.
+Amazon,B07TX6BX47,1 kit,"TUOFENG 22 AWG solid-core wire, six colors",https://www.amazon.com/dp/B07TX6BX47,"Breadboard wiring, short power leads and removable JP1 wire."
+Amazon,B01EV70C78,1 pack,ELEGOO male/female jumper-wire assortment,https://www.amazon.com/dp/B01EV70C78,Reach the module end-header pins; use short solid-core wiring for USB data.
+Amazon,B01MFA3OFA,1 kit,Ginsco heat-shrink assortment,https://www.amazon.com/dp/B01MFA3OFA,Insulate the cable and power joints.
+Amazon,B01MZIPYPY,1 if missing,Anker USB-A to USB-C data cable,https://www.amazon.com/dp/B01MZIPYPY,Programming cable; reuse a data-capable cable if owned.
+Amazon,B0DXL12W59,1 module; already owned,hiBCTR RP2040-Zero,https://www.amazon.com/dp/B0DXL12W59,M1. Reuse your existing module.
+Amazon,B0D7676X4L,1 kit if missing,yddmyo 14-piece USB connector breakout kit,https://www.amazon.com/dp/B0D7676X4L,Includes two USB 2.0 Type-A female boards: one bare-header style and one terminal style. Use those two only; reuse your existing USB boards instead if available.
+Amazon,B0B11JZ1F3,1 pack if missing,Treedix four 7-pin DIN socket breakout boards,https://www.amazon.com/dp/B0B11JZ1F3,"J4/J5: use 1 keyboard, 2 full. You already own these; breadboard use only."
+Amazon,B0135IQ0ZC,4 boards if starting empty,Qunqi 400-contact solderless breadboard,https://www.amazon.com/dp/B0135IQ0ZC,"Four half-size boards provide room for the full build. With your existing large board, buy only any expansion space needed."
+Amazon,B0774VBJ3J,1 pack if headers missing,OCR 40-pin straight 2.54 mm male/female header assortment,https://www.amazon.com/dp/B0774VBJ3J,Use male strips: cut 9 + 9 + 5 for M1. One extra 4-pin piece can serve the bare USB breakout. Reuse fitted headers.
+Amazon,B01ISAMUA6,1 if missing,AstroAI AM33D multimeter,https://www.amazon.com/dp/B01ISAMUA6,"DC voltage, resistance and continuity checks."
+Mouser - required exception,595-TPS2042P,1,TPS2042P,https://www.mouser.com/en/ProductDetail/Texas-Instruments/TPS2042P?qs=sGAEpiMZZMv0DJfhVcWlK5dti4XbSOwogfbpZrAIrQU%3D,U1; Amazon listing not verified
+Mouser - required exception,595-CD4050BE,1,CD4050BE,https://www.mouser.com/en/ProductDetail/Texas-Instruments/CD4050BE?qs=j%2FZo4ajzVJLKLpJvKsajlg%3D%3D,U2; Amazon listing not verified

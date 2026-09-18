@@ -1,6 +1,6 @@
 # LINK COMMANDER — Rev D
 
-**Buy the parts:** [Amazon products + ASINs](SHOPPING-AMAZON.md) · [Mouser products + SKUs](SHOPPING-MOUSER.md) · [Full Mouser order CSV](SHOPPING-MOUSER-ORDER.csv) · [Keyboard-only Mouser CSV](SHOPPING-MOUSER-KEYBOARD.csv). The two main shopping tables form one combined order; reuse the parts marked already owned.
+**Buy the breadboard parts:** [Amazon checklist + ASINs](SHOPPING-AMAZON.md) · [Mouser checklist + SKUs](SHOPPING-MOUSER.md) · [Amazon order CSV](SHOPPING-AMAZON-ORDER.csv) · [Full Mouser CSV](SHOPPING-MOUSER-ORDER.csv) · [Keyboard-only Mouser CSV](SHOPPING-MOUSER-KEYBOARD.csv). Choose one checklist; do not buy both. Each covers the build and explicitly identifies outside-store exceptions. Skip parts already owned.
 
 A through-hole USB keyboard and mouse adapter for the **Commander X16**.
 The RP2040-Zero translates supported wired devices or 2.4 GHz USB receivers

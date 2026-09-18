@@ -1,12 +1,14 @@
-# LINK COMMANDER Rev D — exact Mouser order
+# LINK COMMANDER Rev D — Mouser breadboard shopping list
 
-**Recommended purchase: order the main table below plus the main table in [SHOPPING-AMAZON.md](SHOPPING-AMAZON.md).** Together they cover the Rev D keyboard-and-mouse breadboard, reusing your RP2040-Zero, existing USB/DIN connector breakouts and breadboard. Each link opens one specific product; the SKU identifies the exact selection.
+**Choose this list OR the Amazon list. Do not buy both lists.** This document now includes the circuit parts, connectors, power supply, wire, insulation, breadboards and custom-cable materials. Nothing in its purchase tables depends on the Amazon shopping document.
 
-Use **Full build** to buy for keyboard and mouse now. Use **Keyboard only** if you want to purchase just the first stage. These columns are alternatives, not quantities to add together. Skip items you already own.
+**One sourcing exception:** the specified **hiBCTR RP2040-Zero module, M1**, is already yours. I could not verify that exact module at Mouser. Reuse it, or buy the [same module on Amazon — B0DXL12W59](https://www.amazon.com/dp/B0DXL12W59). A Raspberry Pi Pico is not a drop-in replacement. This is therefore a complete breadboard checklist with one explicit outside-store module, not a claim that Mouser sells everything.
 
-## Buy these parts
+## Exact order
 
-| Part | Keyboard only | Full build | Mouser SKU — direct product link | Manufacturer part number | Circuit reference |
+The table includes replacements for your existing connectors, headers, breadboard and meter so it also works as a from-scratch checklist. **Delete those rows from your cart if reusing them.** Bare USB/DIN sockets need short soldered, insulated leads to reach breadboard holes; do not force their pins or shell tabs into the breadboard.
+
+| Part | Keyboard only | Full build | Mouser SKU — direct link | Manufacturer part number | Use / reference |
 |---|---:|---:|---|---|---|
 | USB power-switch chip — PDIP-8 | 1 | 1 | [595-TPS2042P](https://www.mouser.com/en/ProductDetail/Texas-Instruments/TPS2042P?qs=sGAEpiMZZMv0DJfhVcWlK5dti4XbSOwogfbpZrAIrQU%3D) | TPS2042P | U1 |
 | PS/2 input buffer — PDIP-16 | 1 | 1 | [595-CD4050BE](https://www.mouser.com/en/ProductDetail/Texas-Instruments/CD4050BE?qs=j%2FZo4ajzVJLKLpJvKsajlg%3D%3D) | CD4050BE | U2 |
@@ -27,38 +29,35 @@ Use **Full build** to buy for keyboard and mouse now. Use **Keyboard only** if y
 | Regulated 5 V / 3 A wall supply — US plug | 1 | 1 | [709-GSM18U05-P1J](https://www.mouser.com/en/ProductDetail/MEAN-WELL/GSM18U05-P1J?qs=y5B8D4YB%2F3Q73ALXdTERfw%3D%3D) | GSM18U05-P1J | External supply |
 | 5.5 × 2.1 mm female barrel-to-screw-terminal adapter | 1 | 1 | [485-368](https://www.mouser.com/en/ProductDetail/Adafruit/368?qs=GURawfaeGuDj%2FuiL%252B50YjQ%3D%3D) | 368 | J1 breadboard connection |
 | 7-pin DIN male cable plug — solder terminals | 1 | 2 | [490-SDR-70](https://www.mouser.com/en/ProductDetail/Same-Sky/SDR-70?qs=WyjlAZoYn525nOK6Wu9GaQ%3D%3D) | SDR-70 | Custom PS/2 cable plugs |
+| 22 AWG solid-core hookup wire — six-color spool set | 1 | 1 | [485-1311](https://www.mouser.com/en/ProductDetail/Adafruit/1311?qs=GURawfaeGuBbUKgxUfZ%252BxQ%3D%3D) | 1311 | Wiring and removable JP1 jumper |
+| Heat-shrink assortment | 1 | 1 | [474-PRT-09353](https://www.mouser.com/en/ProductDetail/SparkFun/PRT-09353?qs=WyAARYrbSnbX2QgoKpWtUQ%3D%3D) | PRT-09353 | Insulation for cable and power joints |
+| PS/2 male-to-female extension cable — 6 ft | 1 | 2 | [545-P222006](https://www.mouser.com/en/ProductDetail/Tripp-Lite/P222-006?qs=sukvznpo3Fq6Bwrm0MV4eQ%3D%3D) | P222-006 | One male-ended cable section per output |
+| USB-A to USB-C data cable — approximately 1 m | 1 | 1 | [485-4474](https://www.mouser.com/en/ProductDetail/Adafruit/4474?qs=CUBnOrq4ZJz9F%2FNF%252BRRALQ%3D%3D) | 4474 | Module programming |
+| Male-to-female jumper wires — 20-pack | 1 | 1 | [485-1954](https://www.mouser.com/en/ProductDetail/Adafruit/1954?qs=GURawfaeGuCB%252BLTF1NsFig%3D%3D) | 1954 | Reach module end-header contacts |
+| Full-size solderless breadboard — two give working space | 2 | 2 | [485-239](https://www.mouser.com/en/ProductDetail/Adafruit/239?qs=GURawfaeGuBO%2FIaAv%252BnS1w%3D%3D) | 239 | Reuse existing boards if adequate |
+| USB-A female through-hole socket | 1 | 2 | [538-67643-3910](https://www.mouser.com/en/ProductDetail/Molex/67643-3910?qs=x6EjVpvqMVPR04zsu4B0aw%3D%3D) | 67643-3910 | J2 J3; reuse existing breakouts or solder short leads |
+| 7-pin DIN female through-hole socket | 1 | 2 | [490-SDS-70J](https://www.mouser.com/en/ProductDetail/Same-Sky/SDS-70J?qs=sGAEpiMZZMtAYTMy7wxAr38XxmkflkdN2GGAM5wDr1DA1h1NpC6HFw%3D%3D) | SDS-70J | J4 J5; reuse existing breakouts or solder short leads |
+| Male header strips — ten 36-pin strips, 2.54 mm | 1 | 1 | [485-392](https://www.mouser.com/en/ProductDetail/Adafruit/392?qs=GURawfaeGuBPkJS%252B96amuQ%3D%3D) | 392 | M1 headers; omit if already fitted |
+| Multimeter for DC voltage, resistance and continuity | 1 | 1 | [485-850](https://www.mouser.com/en/ProductDetail/Adafruit/850?qs=GURawfaeGuBADKQ4LzdFCg%3D%3D) | 850 | Bench tool; omit if owned |
 
-**Order files:** [Full keyboard + mouse order CSV](SHOPPING-MOUSER-ORDER.csv) · [Keyboard-only order CSV](SHOPPING-MOUSER-KEYBOARD.csv). These contain the same exact SKUs and quantities as the main table, and can be uploaded to Mouser's BOM tool. They exclude already-owned parts and optional extras. Select **Cut Tape** for the 22 Ω resistors; you need individual resistors, not a reel.
+**Order CSVs:** [Keyboard + mouse](SHOPPING-MOUSER-ORDER.csv) · [Keyboard only](SHOPPING-MOUSER-KEYBOARD.csv). Each has 29 unique SKU rows, matching this table. They exclude the outside-store module and workshop tools. Remove already-owned rows before ordering. Select **Cut Tape** for the 22 Ω resistors.
 
-The selected external supply is **5 V**, with up to **3 A** available. It meets the design's 5 V / at-least-2 A requirement; the circuit keeps its 1.5 A fuse. The barrel adapter is passive connector hardware, not an electronic module. Connect its positive terminal through the inline fuse holder, following [BREADBOARD.md](BREADBOARD.md). Splice the holder's larger wire leads to breadboard leads and insulate the joints; do not force 16 AWG wire into the breadboard.
+## Cable and power details
 
-The SDR-70 is a 7-pin full-size DIN plug selected for the SDS-70J socket pattern. It becomes one end of each **custom** PS/2 cable; it is not itself a PS/2 plug. The Amazon male-to-male PS/2 cable provides the 6-pin mini-DIN ends. Check your existing Treedix sockets against the plug before soldering; no hardware sample-fit test has been performed.
+- Buy **two P222-006 cables** for the full build. Each has only **one male PS/2 end**. Cut each about 3 ft from its male end and solder an SDR-70 plug to the cut wires using the project's custom-cable pin table. The remaining female-ended sections are unused. Do not buy just one expecting two male ends.
+- SDR-70 is a full-size 7-pin DIN cable plug; it is not a PS/2 connector. It matches the SDS-70J family. Check the fit against existing Treedix sockets before soldering. Identify every conductor by continuity, never wire color.
+- GSM18U05-P1J supplies regulated **5 V, up to 3 A**, with a US mains plug and a center-positive 5.5×2.1 mm output. Keep the specified **1.5 A fast 5×20 mm fuse**. Connect the barrel adapter positive through that fuse to J1.1; negative goes to J1.2/common ground.
+- Splice the inline holder's 16 AWG leads to short 22 AWG solid-core leads; insulate every joint. Do not force thick or stranded wire into breadboard contacts.
+- Cut module male headers into **9 + 9 + 5 contacts** if needed. Use male-to-female jumpers for the module's offset end header. Use short solid-core connections for USB D+/D−; long jumper ribbons are not the USB data wiring.
+- JP1 is one labeled removable wire from the hookup-wire kit; it needs no extra component on the breadboard.
+- The capacitor voltage ratings are maximum ratings, not supply settings. The selected individual capacitors meet the existing PCB's nominal lead spacing/body limits; the circuit remains a 5 V design.
 
-The capacitor ratings of 16 V, 25 V and 50 V are allowed maximum voltages, not supply settings. The chosen capacitors meet the current nominal PCB lead spacing/body limits: C1 10 mm diameter / 5 mm pitch; C2 5 mm / 2 mm; C5/C7 6.3 mm / 2.5 mm; ceramics 5 mm pitch. The 22 Ω ordering suffix changes packaging only; no circuit value or wiring changes.
+## What this order covers
 
-## Already owned — no purchase in the main order
+This is the **Rev D keyboard-and-mouse breadboard**, including its external power supply and two custom cables to the X16. It covers every electrical position in [BREADBOARD-PARTS.csv](BREADBOARD-PARTS.csv). Keyboard-only quantities are an alternative to full-build quantities; do not add them together. All circuit components are through-hole except the assembled RP2040-Zero module. Passive connector breakouts are for breadboarding only.
 
-| Item | Quantity used in full build | How it is supplied |
-|---|---:|---|
-| RP2040-Zero module, M1 | 1 | Your existing hiBCTR module, [Amazon ASIN B0DXL12W59](https://www.amazon.com/dp/B0DXL12W59). |
-| USB-A female sockets, J2/J3 | 2 | Reuse two USB socket breakouts from your photo. |
-| 7-pin DIN female sockets, J4/J5 | 2 | Reuse two of your [Treedix breakouts, ASIN B0B11JZ1F3](https://www.amazon.com/dp/B0B11JZ1F3). |
-| Solderless breadboard | 1 to start | Reuse your board; an optional expansion board is in the Amazon list. |
-| Module male headers | 2 × 1×9 and 1 × 1×5 | Reuse the headers already on your module. |
-| Removable JP1 connection | 1 | Cut a short removable jumper from the wire in the Amazon list. |
-| Keyboard/mouse and paired USB receivers | 1 of each | Reuse your peripherals. Firmware support must be established during testing. |
+Have a soldering iron, electronics solder, wire stripper/cutter, small screwdriver and suitable heat source for heat-shrink available. These workshop tools are not included in the component order. The multimeter is listed. The later firmware validation also requires access to a suitable logic analyzer, preferably an oscilloscope, and a computer. Reuse your keyboard, mouse, paired USB receivers and Commander X16; peripheral compatibility is still subject to testing.
 
-## Optional replacements / later PCB connectors
+This is **not a complete PCB assembly order**. The later carrier adds DIP sockets, female module sockets, PCB fuse clips, JP1 header/shunt, mounting hardware and the fabricated PCB; see [PCB parts](hardware/rev-d/parts.md). The 26 PCB test holes do not require purchased components for this breadboard.
 
-Do not add these to the breadboard order if reusing the hardware above. Bare PCB connectors may need short soldered leads for breadboard use.
-
-| Item | Quantity | Mouser SKU — direct product link | Manufacturer part number |
-|---|---:|---|---|
-| USB-A female PCB connector | 2 | [538-67643-3910](https://www.mouser.com/en/ProductDetail/Molex/67643-3910?qs=x6EjVpvqMVPR04zsu4B0aw%3D%3D) | Molex 67643-3910 |
-| 7-pin DIN female PCB socket | 2 | [490-SDS-70J](https://www.mouser.com/en/ProductDetail/Same-Sky/SDS-70J?qs=sGAEpiMZZMtAYTMy7wxAr38XxmkflkdN2GGAM5wDr1DA1h1NpC6HFw%3D%3D) | Same Sky SDS-70J |
-| PCB input terminal, 2.54 mm pitch | 1 | [571-282834-2](https://www.mouser.com/en/ProductDetail/TE-Connectivity/282834-2?qs=A%2Bip%2BNCYi6N8cVKuk8xDog%3D%3D) | TE 282834-2 |
-| Male header assortment, 10 × 36-pin strips, 2.54 mm | 1 pack if headers missing | [485-392](https://www.mouser.com/en/ProductDetail/Adafruit/392?qs=GURawfaeGuBPkJS%252B96amuQ%3D%3D) | Adafruit 392; cut one strip into 9 + 9 + 5 contacts |
-
-This is a **breadboard order**, not a complete carrier-PCB assembly order. PCB-only IC sockets, female module sockets, fuse clips and mounting hardware remain in [PCB purchasing notes](hardware/rev-d/parts.md). Test-point holes do not require extra components for breadboarding.
-
-Product/package selections were researched on 2026-09-17 against supplier listings and the Rev D parts list. Retailer stock can change; the CSV is an order list, not a reserved cart. Firmware and physical testing are still pending.
+Follow [BREADBOARD.md](BREADBOARD.md), including polarity/continuity checks and removing JP1 before connecting the module to the programming computer. Firmware and physical validation remain pending. Listings were reviewed September 18, 2026; stock, seller and delivery can change.
