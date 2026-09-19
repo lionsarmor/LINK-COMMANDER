@@ -2,6 +2,8 @@
 
 **Buy the breadboard parts:** [Amazon checklist + ASINs](SHOPPING-AMAZON.md) · [Mouser checklist + SKUs](SHOPPING-MOUSER.md) · [Amazon order CSV](SHOPPING-AMAZON-ORDER.csv) · [Full Mouser CSV](SHOPPING-MOUSER-ORDER.csv) · [Keyboard-only Mouser CSV](SHOPPING-MOUSER-KEYBOARD.csv). Choose one checklist; do not buy both. Each covers the build and explicitly identifies outside-store exceptions. Skip parts already owned.
 
+**Five finished PCB builds:** [Full Mouser PO (PDF)](MOUSER-PO-01-FIVE-PCBS.pdf) · [Full PO CSV](MOUSER-PO-01-FIVE-PCBS.csv) · [Chips-only PO (PDF)](MOUSER-PO-02-CHIPS-ONLY.pdf) · [Chips-only CSV](MOUSER-PO-02-CHIPS-ONLY.csv). Prepared for requested will-call pickup; not submitted. Full order needs five modules and five fabricated PCBs supplied separately.
+
 A through-hole USB keyboard and mouse adapter for the **Commander X16**.
 The RP2040-Zero translates supported wired devices or 2.4 GHz USB receivers
 into PS/2 keyboard and mouse signals. Rev D removes all gamepad support.

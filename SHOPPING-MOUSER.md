@@ -4,6 +4,8 @@
 
 **One sourcing exception:** the specified **hiBCTR RP2040-Zero module, M1**, is already yours. I could not verify that exact module at Mouser. Reuse it, or buy the [same module on Amazon — B0DXL12W59](https://www.amazon.com/dp/B0DXL12W59). A Raspberry Pi Pico is not a drop-in replacement. This is therefore a complete breadboard checklist with one explicit outside-store module, not a claim that Mouser sells everything.
 
+**Building five finished PCBs instead?** Use the [full PCB purchase order](MOUSER-PO-01-FIVE-PCBS.md) ([PDF](MOUSER-PO-01-FIVE-PCBS.pdf), [CSV](MOUSER-PO-01-FIVE-PCBS.csv)) or the [chips-only purchase order](MOUSER-PO-02-CHIPS-ONLY.md) ([PDF](MOUSER-PO-02-CHIPS-ONLY.pdf), [CSV](MOUSER-PO-02-CHIPS-ONLY.csv)). Those are separate from this one-unit breadboard list.
+
 ## Exact order
 
 The table includes replacements for your existing connectors, headers, breadboard and meter so it also works as a from-scratch checklist. **Delete those rows from your cart if reusing them.** Bare USB/DIN sockets need short soldered, insulated leads to reach breadboard holes; do not force their pins or shell tabs into the breadboard.

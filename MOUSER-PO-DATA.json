@@ -1,0 +1,341 @@
+{
+  "date": "2026-09-18",
+  "build_quantity": 5,
+  "full": [
+    {
+      "Mouser Part Number": "595-TPS2042P",
+      "Quantity": 5,
+      "Manufacturer Part Number": "TPS2042P",
+      "Description": "USB power-switch chip — PDIP-8",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/TPS2042P?qs=sGAEpiMZZMv0DJfhVcWlK5dti4XbSOwogfbpZrAIrQU%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "595-CD4050BE",
+      "Quantity": 5,
+      "Manufacturer Part Number": "CD4050BE",
+      "Description": "PS/2 input buffer — PDIP-16",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/CD4050BE?qs=j%2FZo4ajzVJLKLpJvKsajlg%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "512-2N3904BU",
+      "Quantity": 20,
+      "Manufacturer Part Number": "2N3904BU",
+      "Description": "NPN transistor — TO-92",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/onsemi/2N3904BU?qs=or4AE2qAS%252Bd0Jdpn%2F8ktKg%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "603-MFR-25FRF52-22R",
+      "Quantity": 20,
+      "Manufacturer Part Number": "MFR-25FRF52-22R",
+      "Description": "22 Ω resistor — 1%, ¼ W, axial; select Cut Tape",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25FRF52-22R?qs=oAGoVhmvjhwUlsp%2F3bYXqg%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": "Cut Tape; loose resistors, not a reel"
+    },
+    {
+      "Mouser Part Number": "603-MFR-25FBF52-15K",
+      "Quantity": 20,
+      "Manufacturer Part Number": "MFR-25FBF52-15K",
+      "Description": "15 kΩ resistor — 1%, ¼ W, axial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-15K?qs=oAGoVhmvjhzZTLCD9uq%2F7w%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "603-MFR-25FBF52-2K2",
+      "Quantity": 30,
+      "Manufacturer Part Number": "MFR-25FBF52-2K2",
+      "Description": "2.2 kΩ resistor — 1%, ¼ W, axial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-2K2?qs=oAGoVhmvjhwVT9mopfAMPA%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "603-MFR-25FBF52-47K",
+      "Quantity": 20,
+      "Manufacturer Part Number": "MFR-25FBF52-47K",
+      "Description": "47 kΩ resistor — 1%, ¼ W, axial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-47K?qs=oAGoVhmvjhwOchl34Oamzw%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "603-MFR-25FBF52-4K7",
+      "Quantity": 20,
+      "Manufacturer Part Number": "MFR-25FBF52-4K7",
+      "Description": "4.7 kΩ resistor — 1%, ¼ W, axial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-4K7?qs=oAGoVhmvjhyEuU2iU0uA4w%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "603-MFR-25FBF52-100K",
+      "Quantity": 20,
+      "Manufacturer Part Number": "MFR-25FBF52-100K",
+      "Description": "100 kΩ resistor — 1%, ¼ W, axial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-100K?qs=oAGoVhmvjhxAqZbyE%2Fs9bg%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "594-K104K15X7RF5TH5",
+      "Quantity": 20,
+      "Manufacturer Part Number": "K104K15X7RF5TH5",
+      "Description": "100 nF ceramic capacitor — 50 V, leaded",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Vishay-BC-Components/K104K15X7RF5TH5?qs=CuWZN%2F5Vbiofhf%252BuZNGw%2Fg%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "647-UVR1E471MPD",
+      "Quantity": 5,
+      "Manufacturer Part Number": "UVR1E471MPD",
+      "Description": "470 µF electrolytic — 25 V, radial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Nichicon/UVR1E471MPD?qs=eBzRnwgjaQf16mhkgyDt6A%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "667-EEU-FR1H100",
+      "Quantity": 5,
+      "Manufacturer Part Number": "EEU-FR1H100",
+      "Description": "10 µF electrolytic — 50 V, radial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1H100?qs=tfZGHB2PWd1NAbdNSgjToQ%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "667-EEU-FR1C221",
+      "Quantity": 10,
+      "Manufacturer Part Number": "EEU-FR1C221",
+      "Description": "220 µF electrolytic — 16 V, radial",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1C221?qs=sGAEpiMZZMsh%252B1woXyUXj1qMLSoXX8Md3jdDfI7Gxc0%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "604-WP710A10ID",
+      "Quantity": 10,
+      "Manufacturer Part Number": "WP710A10ID",
+      "Description": "Red LED — 3 mm, through-hole",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Kingbright/WP710A10ID?qs=wRBQ8ZgBZ98VyHeNIlWGkQ%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "504-BK1/GMA-1.5-R",
+      "Quantity": 5,
+      "Manufacturer Part Number": "BK1/GMA-1.5-R",
+      "Description": "1.5 A fast-blow fuse — 5 × 20 mm",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Eaton-Electronics/BK1-GMA-1.5-R?qs=9GX7soZQXxHHwQMtPHv6gQ%3D%3D",
+      "Section": "A. Circuit components",
+      "Notes": ""
+    },
+    {
+      "Mouser Part Number": "538-67643-3910",
+      "Quantity": 10,
+      "Manufacturer Part Number": "67643-3910",
+      "Description": "USB-A female through-hole socket",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Molex/67643-3910?qs=x6EjVpvqMVPR04zsu4B0aw%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "2 per PCB; solder directly to board"
+    },
+    {
+      "Mouser Part Number": "490-SDS-70J",
+      "Quantity": 10,
+      "Manufacturer Part Number": "SDS-70J",
+      "Description": "7-pin DIN female through-hole socket",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Same-Sky/SDS-70J?qs=sGAEpiMZZMtAYTMy7wxAr38XxmkflkdN2GGAM5wDr1DA1h1NpC6HFw%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "2 per PCB; solder directly to board"
+    },
+    {
+      "Mouser Part Number": "571-282834-2",
+      "Quantity": 5,
+      "Manufacturer Part Number": "282834-2",
+      "Description": "2-position PCB power terminal, 2.54 mm",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/282834-2?qs=A%2Bip%2BNCYi6N8cVKuk8xDog%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "J1; one per PCB"
+    },
+    {
+      "Mouser Part Number": "571-1-2199298-2",
+      "Quantity": 5,
+      "Manufacturer Part Number": "1-2199298-2",
+      "Description": "8-pin DIP socket, 7.62 mm row spacing",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/1-2199298-2?qs=fK8dlpkaUMtEKa4wabwOXQ%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "U1 socket; one per PCB"
+    },
+    {
+      "Mouser Part Number": "571-1-2199298-4",
+      "Quantity": 5,
+      "Manufacturer Part Number": "1-2199298-4",
+      "Description": "16-pin DIP socket, 7.62 mm row spacing",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/1-2199298-4?qs=fK8dlpkaUMvpL10rY9Abiw%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "U2 socket; one per PCB"
+    },
+    {
+      "Mouser Part Number": "200-SSW10901TS",
+      "Quantity": 10,
+      "Manufacturer Part Number": "SSW-109-01-T-S",
+      "Description": "9-contact female module socket, 2.54 mm",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Samtec/SSW-109-01-T-S?qs=rU5fayqh%252BE3xTV8be5%252BI6g%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "M1 side rows; two per PCB"
+    },
+    {
+      "Mouser Part Number": "200-SSW10101TS",
+      "Quantity": 25,
+      "Manufacturer Part Number": "SSW-101-01-T-S",
+      "Description": "Single-contact female module socket",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Samtec/SSW-101-01-T-S?qs=rU5fayqh%252BE2KqcuVZzybJQ%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "Five per PCB at M1 contacts 10-14; see orientation note"
+    },
+    {
+      "Mouser Part Number": "485-392",
+      "Quantity": 1,
+      "Manufacturer Part Number": "392",
+      "Description": "Male header strips — ten 36-pin strips, 2.54 mm",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Adafruit/392?qs=GURawfaeGuBPkJS%252B96amuQ%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "ONE PACK of ten 36-pin strips; supplies all module male headers and five JP1 headers"
+    },
+    {
+      "Mouser Part Number": "571-8815452",
+      "Quantity": 5,
+      "Manufacturer Part Number": "881545-2",
+      "Description": "2-pin removable shunt with handle, 2.54 mm",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/881545-2?qs=ZDXmSm13592mTLRC39Ye%2Fw%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "JP1 cap; one per PCB"
+    },
+    {
+      "Mouser Part Number": "576-01110501Z",
+      "Quantity": 10,
+      "Manufacturer Part Number": "01110501Z",
+      "Description": "111-series through-hole 5x20 mm fuse clip",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Littelfuse/01110501Z?qs=Ql%252B1sS8nYriZVK%2FyEjYMGg%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "Two separate clips per fuse / PCB; quantity is clips, not pairs"
+    },
+    {
+      "Mouser Part Number": "761-M1257-3005-N",
+      "Quantity": 20,
+      "Manufacturer Part Number": "M1257-3005-N",
+      "Description": "M3 x 0.5 nylon female/female standoff, 10 mm",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/RAF-Electronic-Hardware/M1257-3005-N?qs=dwkm%252BGAHGA355LT4uKcugA%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "Four insulating feet per PCB"
+    },
+    {
+      "Mouser Part Number": "534-29341",
+      "Quantity": 20,
+      "Manufacturer Part Number": "29341",
+      "Description": "M3 x 6 mm nylon screw",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Keystone-Electronics/29341?qs=UWqYQ%2F2cZWvoES94dEyCJQ%3D%3D",
+      "Section": "B. PCB connectors, sockets and hardware",
+      "Notes": "Four screws per PCB; attach standoff feet from above"
+    },
+    {
+      "Mouser Part Number": "709-GSM18U05-P1J",
+      "Quantity": 5,
+      "Manufacturer Part Number": "GSM18U05-P1J",
+      "Description": "Regulated 5 V / 3 A wall supply — US plug",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/MEAN-WELL/GSM18U05-P1J?qs=y5B8D4YB%2F3Q73ALXdTERfw%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "One regulated 5 V / 3 A US-plug supply per unit"
+    },
+    {
+      "Mouser Part Number": "485-368",
+      "Quantity": 5,
+      "Manufacturer Part Number": "368",
+      "Description": "5.5 × 2.1 mm female barrel-to-screw-terminal adapter",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Adafruit/368?qs=GURawfaeGuDj%2FuiL%252B50YjQ%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "One female barrel adapter per unit; short wires connect to PCB J1"
+    },
+    {
+      "Mouser Part Number": "490-SDR-70",
+      "Quantity": 10,
+      "Manufacturer Part Number": "SDR-70",
+      "Description": "7-pin DIN male cable plug — solder terminals",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Same-Sky/SDR-70?qs=WyjlAZoYn525nOK6Wu9GaQ%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "Two full-size 7-pin male plugs per unit; custom cables"
+    },
+    {
+      "Mouser Part Number": "545-P222006",
+      "Quantity": 10,
+      "Manufacturer Part Number": "P222-006",
+      "Description": "PS/2 male-to-female extension cable — 6 ft",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Tripp-Lite/P222-006?qs=sukvznpo3Fq6Bwrm0MV4eQ%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "One male PS/2 end per cable; two cables per unit"
+    },
+    {
+      "Mouser Part Number": "485-1311",
+      "Quantity": 1,
+      "Manufacturer Part Number": "1311",
+      "Description": "22 AWG solid-core hookup wire — six-color spool set",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Adafruit/1311?qs=GURawfaeGuBbUKgxUfZ%252BxQ%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "ONE six-color 22 AWG wire set shared across five builds"
+    },
+    {
+      "Mouser Part Number": "474-PRT-09353",
+      "Quantity": 1,
+      "Manufacturer Part Number": "PRT-09353",
+      "Description": "Heat-shrink assortment",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/SparkFun/PRT-09353?qs=WyAARYrbSnbX2QgoKpWtUQ%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "ONE heat-shrink assortment shared across cable joints"
+    },
+    {
+      "Mouser Part Number": "485-4474",
+      "Quantity": 1,
+      "Manufacturer Part Number": "4474",
+      "Description": "USB-A to USB-C data cable — approximately 1 m",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Adafruit/4474?qs=CUBnOrq4ZJz9F%2FNF%252BRRALQ%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "ONE programming cable shared across five modules"
+    },
+    {
+      "Mouser Part Number": "485-850",
+      "Quantity": 1,
+      "Manufacturer Part Number": "850",
+      "Description": "Multimeter for DC voltage, resistance and continuity",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Adafruit/850?qs=GURawfaeGuBADKQ4LzdFCg%3D%3D",
+      "Section": "C. Power, cables and shared supplies",
+      "Notes": "ONE shared bench multimeter; remove only if already owned"
+    }
+  ],
+  "chips": [
+    {
+      "Mouser Part Number": "595-TPS2042P",
+      "Quantity": 5,
+      "Manufacturer Part Number": "TPS2042P",
+      "Description": "USB power-switch chip — PDIP-8",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/TPS2042P?qs=sGAEpiMZZMv0DJfhVcWlK5dti4XbSOwogfbpZrAIrQU%3D",
+      "Section": "Chips only",
+      "Notes": "One per Link Commander; five units total"
+    },
+    {
+      "Mouser Part Number": "595-CD4050BE",
+      "Quantity": 5,
+      "Manufacturer Part Number": "CD4050BE",
+      "Description": "PS/2 input buffer — PDIP-16",
+      "Product URL": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/CD4050BE?qs=j%2FZo4ajzVJLKLpJvKsajlg%3D%3D",
+      "Section": "Chips only",
+      "Notes": "One per Link Commander; five units total"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ already assembled RP2040-Zero plugs into removable headers.
 |---:|---|
 | 1 | User's hiBCTR RP2040-Zero module, ASIN B0DXL12W59; verify actual header geometry |
 | 2 + 1 | 1×9 + 1×5 male headers, 2.54 mm, on the module |
-| 2 + 1 | Matching 1×9 + 1×5 female sockets on the carrier |
+| 2 + 5 | SSW-109-01-T-S 9-contact female sockets + SSW-101-01-T-S individual sockets on the carrier; see orientation below |
 | 1 | TPS2042P, PDIP-8, dual channel, active-low enables |
 | 1 | CD4050BE, PDIP-16, non-inverting level converter |
 | 1 + 1 | DIP-8 + DIP-16 sockets, 7.62 mm row spacing |
@@ -28,6 +28,33 @@ The header and DIP sockets, fuse clips, cable plugs, power supply and
 mounting hardware are additional purchasing items, not extra electrical
 IC positions. Use complete manufacturer part numbers: “74HC”, “CD4050”
 or “TPS2042” alone does not specify a through-hole package.
+
+## Five-board purchasing documents
+
+[Full Mouser PO](../../MOUSER-PO-01-FIVE-PCBS.md) ([PDF](../../MOUSER-PO-01-FIVE-PCBS.pdf), [CSV](../../MOUSER-PO-01-FIVE-PCBS.csv)) includes the circuit components, sockets, fuse clips, mounting feet, external supplies and custom-cable materials for five PCBs. The [chips-only PO](../../MOUSER-PO-02-CHIPS-ONLY.md) contains five of each DIP IC. Both are unsubmitted drafts with requested will-call pickup; prices and pickup readiness require supplier confirmation. Supply five RP2040-Zero modules and five fabricated boards separately.
+
+### Selected module sockets
+
+For each board, use two Samtec **SSW-109-01-T-S** sockets for the side rows
+and five **SSW-101-01-T-S** individual sockets at M1 contacts 10–14. Turn
+the single sockets so their **3.05 mm dimension runs parallel to the long
+side rows**, with their **2.41 mm dimension along the end row**. All sockets
+have the same nominal 8.51 mm body height. Align them on the actual module
+before soldering; keep the module removable.
+
+This is a purchasing/assembly refinement; no holes or circuit connections
+change. The [Samtec drawing](https://suddendocs.samtec.com/catalog_english/ssw_th.pdf)
+specifies a row housing length of contact count × 2.54 mm + 0.51 mm. A complete
+SSW-105 housing would nominally overlap the side-row housings at this
+footprint's corners. Rotated individual end sockets avoid that overlap,
+with nominal 0.13 mm lateral clearance. Manufacturing tolerances and clone
+module dimensions still require a physical sample fit. Do not substitute
+a complete 5-contact socket strip without checking its housing dimensions.
+
+One Adafruit 392 pack supplies all five modules' male headers and five
+2-pin JP1 headers: use five strips, cutting each into 9 + 9 + 5 + 2 contacts.
+Ten Littelfuse **01110501Z** clips supply the five fuse positions; these
+are individual clips, two per fuse, not complete holders.
 
 ## Optional test contacts
 
