@@ -31,7 +31,7 @@ or “TPS2042” alone does not specify a through-hole package.
 
 ## Five-board purchasing documents
 
-[Full Mouser PO](../../MOUSER-PO-01-FIVE-PCBS.md) ([PDF](../../MOUSER-PO-01-FIVE-PCBS.pdf), [CSV](../../MOUSER-PO-01-FIVE-PCBS.csv)) includes the circuit components, sockets, fuse clips, mounting feet, external supplies and custom-cable materials for five PCBs. The [chips-only PO](../../MOUSER-PO-02-CHIPS-ONLY.md) contains five of each DIP IC. Both are unsubmitted drafts with requested will-call pickup; prices and pickup readiness require supplier confirmation. Supply five RP2040-Zero modules and five fabricated boards separately.
+[Full Mouser PO](../../MOUSER-PO-01-FIVE-PCBS.md) ([PDF](../../MOUSER-PO-01-FIVE-PCBS.pdf), [CSV](../../MOUSER-PO-01-FIVE-PCBS.csv)) includes the circuit components, sockets, fuse clips, mounting feet, external supplies and custom-cable materials for five PCBs. The [chips-only PO](../../MOUSER-PO-02-CHIPS-ONLY.md) contains five of each DIP IC. Both are plain parts tables for presenting to Mouser; no order has been submitted. Arrange pricing and will-call pickup with the supplier. Supply five RP2040-Zero modules and five fabricated boards separately.
 
 ### Selected module sockets
 
